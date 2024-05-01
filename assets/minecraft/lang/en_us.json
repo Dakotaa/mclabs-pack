@@ -27,7 +27,7 @@
   "item.minecraft.melon_seeds": "Melonium",
   "item.minecraft.pumpkin_seeds": "Pumpkonium",
   "item.minecraft.pumpkin": "Raw Pumpkonium",
-  "block.minecraft.brown_mushroom": "Shroomium-B",
-  "block.minecraft.red_mushroom": "Shroomium-R",
-  "item.minecraft.lime_dye": "Cactinide"
+  "item.minecraft.lime_dye": "Cactinide",
+  "item.minecraft.glow_berries": "Globerrium",
+  "item.minecraft.sweet_berries": "Sweeberrium"
 }

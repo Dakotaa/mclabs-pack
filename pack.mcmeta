@@ -1,6 +1,7 @@
 {
-  "pack": {
-    "pack_format": 8,
-    "description": "§4Optifine - 1.18.x §2MCLabs 2023 Resource Pack v1.3.0 §7"
-  }
+    "pack": {
+        "pack_format": 15,
+		"supported_formats": [15, 22],
+      "description": "§bMCLabs 2024 Pack §7Optifine/CIT recommended"
+    }
 }
