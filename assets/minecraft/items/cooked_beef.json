@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/highstakes"
+        
+    },
+    "when": "High Stakes"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/gourmet_steak"
+        
+    },
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Gourmet Steak"}], "text": ""}
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/cooked_beef"
+        }
+    }
+}

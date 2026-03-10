@@ -1,0 +1,139 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": 
+    {
+        "type": "minecraft:condition",
+        "on_false": 
+        {
+            "type": "minecraft:model",
+            "model": "minecraft:item/carnage_bow"
+        },
+        "on_true": 
+        {
+            "type": "minecraft:range_dispatch",
+            "entries": 
+            [
+                {
+                    "model": 
+                    {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/carnage_bow_1"
+                    },
+                    "threshold": 0.65
+                },
+                {
+                    "model": 
+                    {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/carnage_bow_2"
+                    },
+                    "threshold": 0.9
+                }
+            ],
+            "fallback": 
+            {
+                "type": "minecraft:model",
+                "model": "minecraft:item/carnage_bow_0"
+            },
+            "property": "minecraft:use_duration",
+            "scale": 0.05
+        },
+        "property": "minecraft:using_item"
+    },
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#930000", "obfuscated": false, "strikethrough": false, "text": "Carnage Bow"}], "text": ""}
+},{
+    "model": 
+    {
+        "type": "minecraft:condition",
+        "on_false": 
+        {
+            "type": "minecraft:model",
+            "model": "minecraft:item/carnage_bow"
+        },
+        "on_true": 
+        {
+            "type": "minecraft:range_dispatch",
+            "entries": 
+            [
+                {
+                    "model": 
+                    {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/item/soul_shooter_1"
+                    },
+                    "threshold": 0.65
+                },
+                {
+                    "model": 
+                    {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/item/soul_shooter_2"
+                    },
+                    "threshold": 0.9
+                }
+            ],
+            "fallback": 
+            {
+                "type": "minecraft:model",
+                "model": "minecraft:item/item/soul_shooter_0"
+            },
+            "property": "minecraft:use_duration",
+            "scale": 0.05
+        },
+        "property": "minecraft:using_item"
+    },
+    "when": "Soul Sniper"
+},{
+    "model": 
+    {
+        "type": "minecraft:condition",
+        "on_false": 
+        {
+            "type": "minecraft:model",
+            "model": "minecraft:item/compound_bow"
+        },
+        "on_true": 
+        {
+            "type": "minecraft:range_dispatch",
+            "entries": 
+            [
+                {
+                    "model": 
+                    {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/compound_bow_2"
+                    },
+                    "threshold": 0.65
+                },
+                {
+                    "model": 
+                    {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/compound_bow_3"
+                    },
+                    "threshold": 0.9
+                }
+            ],
+            "fallback": 
+            {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compound_bow_1"
+            },
+            "property": "minecraft:use_duration",
+            "scale": 0.05
+        },
+        "property": "minecraft:using_item"
+    },
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "dark_purple", "obfuscated": false, "strikethrough": false, "text": "Compound Bow"}], "text": ""}
+}
+        ],
+        "fallback": {
+            "type":"minecraft:condition","on_false":{"type":"minecraft:model","model":"minecraft:item/bow"},"on_true":{"type":"minecraft:range_dispatch","entries":[{"model":{"type":"minecraft:model","model":"minecraft:item/bow_pulling_1"},"threshold":0.65},{"model":{"type":"minecraft:model","model":"minecraft:item/bow_pulling_2"},"threshold":0.9}],"fallback":{"type":"minecraft:model","model":"minecraft:item/bow_pulling_0"},"property":"minecraft:use_duration","scale":0.05},"property":"minecraft:using_item"
+        }
+    }
+}

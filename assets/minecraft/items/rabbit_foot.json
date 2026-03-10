@@ -1,0 +1,48 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/jump2"
+        
+    },
+    "when": "Power Leap I"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/jump3"
+        
+    },
+    "when": "Power Leap II"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/jump4"
+        
+    },
+    "when": "Power Leap III"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/jumpboost"
+        
+    },
+    "when": "Jump Boost"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/leap"
+        
+    },
+    "when": "Leap"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/rabbit_foot"
+        }
+    }
+}

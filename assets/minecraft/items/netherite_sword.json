@@ -1,0 +1,76 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/blood_butcherer"
+        
+    },
+    "when": "Blood Butcherer"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/soulsword"
+        
+    },
+    "when": "┃ and deal massive damage to"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/carnage_sword_2"
+        
+    },
+    "when": "Carnage Sword"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/soul_stealer_2"
+        
+    },
+    "when": "Soul Stealer"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/krampus_claw_netherite"
+        
+    },
+    "when": "Pilfer I"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rapier_netherite"
+        
+    },
+    "when": "Featherweight I"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/mob_overkiller_netherite"
+        
+    },
+    "when": "Mob Overkiller"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/materializer_netherite"
+        
+    },
+    "when": "Rematerialize I"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/summoning_sword_netherite"
+        
+    },
+    "when": "Conjure I"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/netherite_sword"
+        }
+    }
+}

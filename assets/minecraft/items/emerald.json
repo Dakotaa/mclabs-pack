@@ -1,0 +1,48 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/gift_of_giving"
+        
+    },
+    "when": "Gift of Giving"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/large_holiday_bonus"
+        
+    },
+    "when": "Large Holiday Bonus"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/advertcredit"
+        
+    },
+    "when": "Advert Credit"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/getoutcredit"
+        
+    },
+    "when": "Get out of Jail"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/tagcredit"
+        
+    },
+    "when": "Tag Credit"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/emerald"
+        }
+    }
+}

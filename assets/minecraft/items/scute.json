@@ -1,0 +1,21 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/meloniumtransmutator"
+        
+    },
+    "when": "Melonium Transmutator"
+}
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/scute"
+        }
+    }
+}

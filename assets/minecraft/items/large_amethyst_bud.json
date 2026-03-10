@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/caltrops"
+        
+    },
+    "when": "Caltrops"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/crateboost3"
+        
+    },
+    "when": "Mega Crate Roll Booster"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/large_amethyst_bud"
+        }
+    }
+}

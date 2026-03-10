@@ -1,0 +1,20 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/bowl_of_candy"
+        
+    },
+    "when": "Bowl o' Candy"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/rabbit_stew"
+        }
+    }
+}

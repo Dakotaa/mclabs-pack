@@ -1,0 +1,41 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/headsmans_halberd_diamond"
+        
+    },
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "dark_purple", "obfuscated": false, "strikethrough": false, "text": "Headsman's Halberd"}], "text": ""}
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/herbalizer_diamond"
+        
+    },
+    "when": {"extra":[{"bold":true,"color":"gold","italic":false,"obfuscated":false,"strikethrough":false,"text":"Herbalizer Mk. II","underlined":false}],"text":""}
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/paxel_diamond"
+        
+    },
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "red", "obfuscated": false, "strikethrough": false, "text": "Paxel"}], "text": ""}
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cocobinator_diamond"
+        
+    },
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "light_purple", "obfuscated": false, "strikethrough": false, "text": "Cocobinator"}], "text": ""}
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/diamond_axe"
+        }
+    }
+}

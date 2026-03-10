@@ -1,0 +1,20 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/pumpwartinide"
+        
+    },
+    "when": "Pumpwartinide"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/nether_brick"
+        }
+    }
+}

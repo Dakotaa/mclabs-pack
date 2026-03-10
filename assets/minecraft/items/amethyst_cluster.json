@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/illusionist_crystal"
+        
+    },
+    "when": "Illusionist Crystal"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/crateboost4"
+        
+    },
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "gold", "obfuscated": false, "strikethrough": false, "text": "Legendary Crate Roll Booster"}], "text": ""}
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/amethyst_cluster"
+        }
+    }
+}

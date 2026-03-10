@@ -1,0 +1,69 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/xl_speed_potion"
+        
+    },
+    "when": "XL Speed Potion"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/witchs_brew"
+        
+    },
+    "when": "Witch's Brew"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/hot_cocoa"
+        
+    },
+    "when": "Hot Cocoa"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/sunscreen"
+        
+    },
+    "when": "Sunscreen"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/xl_strength_potion"
+        
+    },
+    "when": "XL Strength Potion"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/xl_invisibility_potion"
+        
+    },
+    "when": "XL Invisibility Potion"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/exp_juice"
+        
+    },
+    "when": "EXP Juice"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/witchs_brew_2"
+        
+    },
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#A85CFF", "obfuscated": false, "strikethrough": false, "text": "Witch's Brew"}], "text": ""}
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/potion","tints":[{"type":"minecraft:potion","default":-13083194}]
+        }
+    }
+}

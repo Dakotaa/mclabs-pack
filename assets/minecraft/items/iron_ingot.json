@@ -1,0 +1,104 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/whetstone"
+        
+    },
+    "when": "Whetstone"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/brawlerhook1"
+        
+    },
+    "when": "Brawler Hook Piece 1/5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/excalibur3"
+        
+    },
+    "when": "Excalibur Piece 3/5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/excalibur4"
+        
+    },
+    "when": "Excalibur Piece 4/5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/excalibur5"
+        
+    },
+    "when": "Excalibur Piece 5/5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/faminescythe5"
+        
+    },
+    "when": "Famine Scythe Piece 5/5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/chestplate1"
+        
+    },
+    "when": "Heavy Steel Chestplate Piece 1/5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/chestplate2"
+        
+    },
+    "when": "Heavy Steel Chestplate Piece 2/5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/chestplate3"
+        
+    },
+    "when": "Heavy Steel Chestplate Piece 3/5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/chestplate4"
+        
+    },
+    "when": "Heavy Steel Chestplate Piece 4/5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/chestplate5"
+        
+    },
+    "when": "Heavy Steel Chestplate Piece 5/5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/stormbreaker4"
+        
+    },
+    "when": "Stormbreaker Piece 4/5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/stormbreaker5"
+        
+    },
+    "when": "Stormbreaker Piece 5/5"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/iron_ingot"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/trick_or_treat_basket"
+    }
+}

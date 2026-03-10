@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/refinedalkanizedwheatium"
+        
+    },
+    "when": "Refined Alkanized Wheatium"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/small_holiday_bonus"
+        
+    },
+    "when": "Small Holiday Bonus"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/gold_ingot"
+        }
+    }
+}

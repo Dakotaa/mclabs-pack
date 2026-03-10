@@ -1,0 +1,55 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/biogenerod"
+        
+    },
+    "when": "Bio-Generod"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/grappling_hook"
+        
+    },
+    "when": "Grappling Hook"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/master_baiter_rod"
+        
+    },
+    "when": "Master Baiter Rod"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/legacy_of_chuck"
+        
+    },
+    "when": "Legacy of Chuck"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/flesh_rod"
+        
+    },
+    "when": "Flesh Rod"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/fish_fryer"
+        
+    },
+    "when": "Molten Tackle I"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:condition","on_false":{"type":"minecraft:model","model":"minecraft:item/fishing_rod"},"on_true":{"type":"minecraft:model","model":"minecraft:item/fishing_rod_cast"},"property":"minecraft:fishing_rod/cast"
+        }
+    }
+}

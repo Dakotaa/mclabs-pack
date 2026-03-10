@@ -1,0 +1,41 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/sliced_cod_sashimi"
+        
+    },
+    "when": "Sliced Cod Sashimi"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/sliced_pufferfish_sashimi"
+        
+    },
+    "when": "Sliced Pufferfish Sashimi"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/sliced_salmon_sashimi"
+        
+    },
+    "when": "Sliced Salmon Sashimi"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/sliced_tropicalfish_sashimi"
+        
+    },
+    "when": "Sliced Tropical Fish Sashimi"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/mutton"
+        }
+    }
+}

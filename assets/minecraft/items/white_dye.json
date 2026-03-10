@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/betromelonide"
+        
+    },
+    "when": "Betromelonide"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/raw_rice"
+        
+    },
+    "when": "Raw Sushi Rice"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/white_dye"
+        }
+    }
+}

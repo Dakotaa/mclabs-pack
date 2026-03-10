@@ -1,0 +1,48 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/momentum1"
+        
+    },
+    "when": "Momentum I"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/momentum2"
+        
+    },
+    "when": "Momentum II"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/momentum3"
+        
+    },
+    "when": "Momentum III"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/momentum4"
+        
+    },
+    "when": "Momentum IV"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/momentum5"
+        
+    },
+    "when": "Momentum V"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/feather"
+        }
+    }
+}

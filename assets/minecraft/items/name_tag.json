@@ -1,0 +1,90 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/halloween_tag_gui"
+        
+    },
+    "when": "Halloween Tags"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/loretag"
+        
+    },
+    "when": "Lore Tag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/renametag"
+        
+    },
+    "when": "Rename Tag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/stattracktag"
+        
+    },
+    "when": "StatTrack Tag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/commontag"
+        
+    },
+    "when": "Common"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/eventtag"
+        
+    },
+    "when": "Event"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/exceedinglyraretag"
+        
+    },
+    "when": "Exceedingly"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/pittag"
+        
+    },
+    "when": "Pit"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/raretag"
+        
+    },
+    "when": "Rare"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/uncommontag"
+        
+    },
+    "when": "Uncommon"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/veryraretag"
+        
+    },
+    "when": "Very"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/name_tag"
+        }
+    }
+}

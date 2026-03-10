@@ -1,0 +1,76 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cratescrap"
+        
+    },
+    "when": "Crate Scrap"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/blinkboots2"
+        
+    },
+    "when": "Blink Boots Piece 2/5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cerberuspaw1"
+        
+    },
+    "when": "Cerberus Paw Piece 1/5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cerberuspaw2"
+        
+    },
+    "when": "Cerberus Paw Piece 2/5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cerberuspaw3"
+        
+    },
+    "when": "Cerberus Paw Piece 3/5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cerberuspaw4"
+        
+    },
+    "when": "Cerberus Paw Piece 4/5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cerberuspaw5"
+        
+    },
+    "when": "Cerberus Paw Piece 5/5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/excalibur1"
+        
+    },
+    "when": "Excalibur Piece 1/5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/faminescythe4"
+        
+    },
+    "when": "Famine Scythe Piece 4/5"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/iron_nugget"
+        }
+    }
+}

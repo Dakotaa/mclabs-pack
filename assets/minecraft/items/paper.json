@@ -1,0 +1,48 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/carnage_raffle_ticket"
+        
+    },
+    "when": "Daily Raffle"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/raffleticket"
+        
+    },
+    "when": "Raffle Ticket"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/blankvalentine"
+        
+    },
+    "when": "Blank Valentine's Card"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/signedvalentine"
+        
+    },
+    "when": "Valentine's Card"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/unsignedvalentine"
+        
+    },
+    "when": "Unsigned Valentine's Card"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/paper"
+        }
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/commonkey"
+        
+    },
+    "when": "Common"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/favourites"
+        
+    },
+    "when": "Favourites Crate Key"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/halloween"
+        
+    },
+    "when": "Halloween Crate Key"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/holiday"
+        
+    },
+    "when": "Holiday Crate Key"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/mastery"
+        
+    },
+    "when": "Mastery Key"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/mystery"
+        
+    },
+    "when": "Mystery Crate Key"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/prestige"
+        
+    },
+    "when": "Prestige Key"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rarekey"
+        
+    },
+    "when": "Rare"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/spawner_key"
+        
+    },
+    "when": "Spawner Crate Key"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/summer"
+        
+    },
+    "when": "Summer CrateKey"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/supply1"
+        
+    },
+    "when": "Supply Crate I Key"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/supply2"
+        
+    },
+    "when": "Supply Crate II Key"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/supply3"
+        
+    },
+    "when": "Supply Crate III Key"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/supply4"
+        
+    },
+    "when": "Supply Crate IV Key"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/supply5"
+        
+    },
+    "when": "Supply Crate V Key"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/supply6"
+        
+    },
+    "when": "Supply Crate VI Key"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/tag"
+        
+    },
+    "when": "Tag Key Crate Key"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/tagrarity"
+        
+    },
+    "when": " Tag Crate Key"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/tool"
+        
+    },
+    "when": "Tool Crate Key"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/uncommonkey"
+        
+    },
+    "when": "Uncommon"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/veryrarekey"
+        
+    },
+    "when": "Very Rare"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/deluxevoterkey"
+        
+    },
+    "when": "Deluxe Voter Crate Key"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/voterkey"
+        
+    },
+    "when": "Voter Crate Key"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/brawlerhook"
+        
+    },
+    "when": "Pull in a nearby mob and"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/tripwire_hook"
+        }
+    }
+}

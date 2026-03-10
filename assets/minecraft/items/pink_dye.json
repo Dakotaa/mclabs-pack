@@ -1,0 +1,34 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/sweepaprinide"
+        
+    },
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "white", "obfuscated": false, "strikethrough": false, "text": "Sweepaprinide"}], "text": ""}
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/pink_sugar_cookie"
+        
+    },
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#FF73F0", "obfuscated": false, "strikethrough": false, "text": "Pink Sugar Cookie"}], "text": ""}
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rarebribefragment"
+        
+    },
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#FF46C4", "obfuscated": false, "strikethrough": false, "text": "Rare Bribe Fragment"}], "text": ""}
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/pink_dye"
+        }
+    }
+}

@@ -1,7 +1,7 @@
 {
     "pack": {
-        "pack_format": 15,
-		"supported_formats": [15, 22],
-      "description": "§bMCLabs 2024 Pack §7Optifine/CIT recommended"
+        "pack_format": 64,
+		"supported_formats": [64],
+      "description": "§bMCLabs 2025 Pack §71.21.11"
     }
 }

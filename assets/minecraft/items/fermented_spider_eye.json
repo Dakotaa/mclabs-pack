@@ -1,0 +1,20 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/soul_of_fright"
+        
+    },
+    "when": "Soul of Fright"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/fermented_spider_eye"
+        }
+    }
+}

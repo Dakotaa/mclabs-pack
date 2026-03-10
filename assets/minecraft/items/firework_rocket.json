@@ -1,0 +1,62 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/endlesspocketrocket"
+        
+    },
+    "when": "Endless Pocket Rocket"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/pocketrocket"
+        
+    },
+    "when": "Pocket Rocket"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/strongpocketrocket"
+        
+    },
+    "when": "Strong Pocket Rocket"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/weakpocketrocket"
+        
+    },
+    "when": "Weak Pocket Rocket"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/holiday_pocket_rocket"
+        
+    },
+    "when": "Holiday Pocket Rocket"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/strong_holiday_pocket_rocket"
+        
+    },
+    "when": "Strong Holiday Pocket Rocket"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/weak_holiday_pocket_rocket"
+        
+    },
+    "when": "Weak Holiday Pocket Rocket"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/firework_rocket"
+        }
+    }
+}
