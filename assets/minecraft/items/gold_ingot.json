@@ -7,17 +7,10 @@
             {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/refinedalkanizedwheatium"
-        
-    },
-    "when": "Refined Alkanized Wheatium"
-},{
-    "model": {
-        "type": "minecraft:model",
         "model": "minecraft:item/small_holiday_bonus"
         
     },
-    "when": "Small Holiday Bonus"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "green", "obfuscated": false, "strikethrough": false, "text": "Small Holiday Bonus"}], "text": ""}
 }
         ],
         "fallback": {

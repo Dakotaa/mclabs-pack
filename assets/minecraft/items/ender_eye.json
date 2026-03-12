@@ -38,7 +38,7 @@
         "model": "minecraft:item/blinkboots1"
         
     },
-    "when": "Blink Boots Piece 1/5"
+    "when": {"color":"white","italic":false,"text":"Eye of The Damned"}
 },{
     "model": {
         "type": "minecraft:model",

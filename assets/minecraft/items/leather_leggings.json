@@ -10,14 +10,14 @@
         "model": "minecraft:item/lucky_frog_leggings"
         
     },
-    "when": "Froggy Fresh I"
+    "when": {"extra":[{"bold":true,"color":"dark_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Lucky Frog Leggings","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/propellor_pants"
         
     },
-    "when": "Propellor Pants"
+    "when": {"extra":[{"bold":true,"color":"light_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Propellor Pants","underlined":false}],"text":""}
 }
         ],
         "fallback": {

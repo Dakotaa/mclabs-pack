@@ -10,7 +10,7 @@
         "model": "minecraft:item/xl_speed_potion"
         
     },
-    "when": "XL Speed Potion"
+    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"XL Speed Potion","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
@@ -24,35 +24,35 @@
         "model": "minecraft:item/hot_cocoa"
         
     },
-    "when": "Hot Cocoa"
+    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Hot Cocoa","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/sunscreen"
         
     },
-    "when": "Sunscreen"
+    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Sunscreen","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/xl_strength_potion"
         
     },
-    "when": "XL Strength Potion"
+    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"XL Strength Potion","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/xl_invisibility_potion"
         
     },
-    "when": "XL Invisibility Potion"
+    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"XL Invisibility Potion","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/exp_juice"
         
     },
-    "when": "EXP Juice"
+    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"EXP Juice","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",

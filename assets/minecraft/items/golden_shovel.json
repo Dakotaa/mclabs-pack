@@ -10,7 +10,7 @@
         "model": "minecraft:item/sandcastle_shovel"
         
     },
-    "when": "Sandcastle Shovel"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "dark_purple", "obfuscated": false, "strikethrough": false, "text": "Sandcastle Shovel"}], "text": ""}
 }
         ],
         "fallback": {

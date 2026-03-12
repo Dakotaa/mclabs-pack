@@ -10,7 +10,7 @@
         "model": "minecraft:item/mining_charge"
         
     },
-    "when": "Mining Charge"
+    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Mining Charge","underlined":false}],"text":""}
 }
         ],
         "fallback": {

@@ -10,49 +10,49 @@
         "model": "minecraft:item/endlesspocketrocket"
         
     },
-    "when": "Endless Pocket Rocket"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#00C215", "obfuscated": false, "strikethrough": false, "text": "Endless Pocket Rocket"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/pocketrocket"
         
     },
-    "when": "Pocket Rocket"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "green", "obfuscated": false, "strikethrough": false, "text": "Pocket Rocket"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/strongpocketrocket"
         
     },
-    "when": "Strong Pocket Rocket"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "green", "obfuscated": false, "strikethrough": false, "text": "Strong Pocket Rocket"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/weakpocketrocket"
         
     },
-    "when": "Weak Pocket Rocket"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "green", "obfuscated": false, "strikethrough": false, "text": "Weak Pocket Rocket"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/holiday_pocket_rocket"
         
     },
-    "when": "Holiday Pocket Rocket"
+    "when": {"extra":[{"bold":true,"color":"#059A00","italic":false,"obfuscated":false,"strikethrough":false,"text":"Holiday ","underlined":false},{"bold":true,"color":"#B00000","italic":false,"obfuscated":false,"strikethrough":false,"text":"Pocket ","underlined":false},{"bold":true,"color":"#059A00","italic":false,"obfuscated":false,"strikethrough":false,"text":"Rocket","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/strong_holiday_pocket_rocket"
         
     },
-    "when": "Strong Holiday Pocket Rocket"
+    "when": {"extra":[{"bold":true,"color":"#B00000","italic":false,"obfuscated":false,"strikethrough":false,"text":"Strong ","underlined":false},{"bold":true,"color":"#059A00","italic":false,"obfuscated":false,"strikethrough":false,"text":"Holiday ","underlined":false},{"bold":true,"color":"#B00000","italic":false,"obfuscated":false,"strikethrough":false,"text":"Pocket ","underlined":false},{"bold":true,"color":"#059A00","italic":false,"obfuscated":false,"strikethrough":false,"text":"Rocket","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/weak_holiday_pocket_rocket"
         
     },
-    "when": "Weak Holiday Pocket Rocket"
+    "when": {"extra":[{"bold":true,"color":"#B00000","italic":false,"obfuscated":false,"strikethrough":false,"text":"Weak ","underlined":false},{"bold":true,"color":"#059A00","italic":false,"obfuscated":false,"strikethrough":false,"text":"Holiday ","underlined":false},{"bold":true,"color":"#B00000","italic":false,"obfuscated":false,"strikethrough":false,"text":"Pocket ","underlined":false},{"bold":true,"color":"#059A00","italic":false,"obfuscated":false,"strikethrough":false,"text":"Rocket","underlined":false}],"text":""}
 }
         ],
         "fallback": {

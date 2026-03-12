@@ -10,7 +10,7 @@
         "model": "minecraft:item/pumpsugrinide"
         
     },
-    "when": "Pumpsugrinide"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "white", "obfuscated": false, "strikethrough": false, "text": "Pumpsugrinide"}], "text": ""}
 }
         ],
         "fallback": {

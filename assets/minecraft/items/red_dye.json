@@ -7,24 +7,10 @@
             {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/sugwartinide"
-        
-    },
-    "when": "Sugwartinide"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/sweerootinide"
-        
-    },
-    "when": "Sweerootinide"
-},{
-    "model": {
-        "type": "minecraft:model",
         "model": "minecraft:item/veryrarebribefragment"
         
     },
-    "when": "Very Rare Bribe Fragment"
+    "when": {"extra":[{"bold":true,"color":"#FF46C4","italic":false,"obfuscated":false,"strikethrough":false,"text":"Very Rare Bribe Fragment","underlined":false}],"text":""}
 }
         ],
         "fallback": {

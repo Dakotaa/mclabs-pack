@@ -10,14 +10,14 @@
         "model": "minecraft:item/chorumpkinate"
         
     },
-    "when": "Chorumpkinate"
+    "when": {"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Chorumpkinate","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/uncommonbribefragment"
         
     },
-    "when": "Uncommon Bribe Fragment"
+    "when": {"extra":[{"bold":true,"color":"#FF46C4","italic":false,"obfuscated":false,"strikethrough":false,"text":"Uncommon Bribe Fragment","underlined":false}],"text":""}
 }
         ],
         "fallback": {

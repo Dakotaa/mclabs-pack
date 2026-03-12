@@ -10,7 +10,14 @@
         "model": "minecraft:item/cocobinide"
         
     },
-    "when": "Cocobinide"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "white", "obfuscated": false, "strikethrough": false, "text": "Cocobinide"}], "text": ""}
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cocobinide"
+        
+    },
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "white", "obfuscated": false, "strikethrough": false, "text": "Cocobinide "}, {"italic": false, "underlined": false, "bold": false, "color": "dark_gray", "obfuscated": false, "strikethrough": false, "text": "(Cooked Cocoa)"}], "text": ""}
 }
         ],
         "fallback": {

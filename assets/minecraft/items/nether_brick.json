@@ -10,7 +10,7 @@
         "model": "minecraft:item/pumpwartinide"
         
     },
-    "when": "Pumpwartinide"
+    "when": {"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Pumpwartinide","underlined":false}],"text":""}
 }
         ],
         "fallback": {

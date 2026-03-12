@@ -10,28 +10,28 @@
         "model": "minecraft:item/sliced_cod_sashimi"
         
     },
-    "when": "Sliced Cod Sashimi"
+    "when": {"extra":[{"bold":false,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"Sliced Cod Sashimi","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/sliced_pufferfish_sashimi"
         
     },
-    "when": "Sliced Pufferfish Sashimi"
+    "when": {"extra":[{"bold":false,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"Sliced Pufferfish Sashimi","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/sliced_salmon_sashimi"
         
     },
-    "when": "Sliced Salmon Sashimi"
+    "when": {"extra":[{"bold":false,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"Sliced Salmon Sashimi","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/sliced_tropicalfish_sashimi"
         
     },
-    "when": "Sliced Tropical Fish Sashimi"
+    "when": {"extra":[{"bold":false,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"Sliced Tropical Fish Sashimi","underlined":false}],"text":""}
 }
         ],
         "fallback": {

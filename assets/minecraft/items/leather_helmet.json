@@ -7,17 +7,10 @@
             {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/beach_umbrella"
-        
-    },
-    "when": "Beach Umbrella"
-},{
-    "model": {
-        "type": "minecraft:model",
         "model": "minecraft:item/pilot_helmet"
         
     },
-    "when": "Aerodynamic I"
+    "when": {"extra":[{"bold":true,"color":"light_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Pilot Hat","underlined":false}],"text":""}
 }
         ],
         "fallback": {

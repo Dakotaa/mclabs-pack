@@ -10,21 +10,21 @@
         "model": "minecraft:item/scuba_helmet"
         
     },
-    "when": "Scuba Helmet"
+    "when": {"extra":[{"bold":true,"color":"dark_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Scuba Helmet","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/demolitionist_helmet"
         
     },
-    "when": "Demolitionist I"
+    "when": {"extra":[{"bold":true,"color":"dark_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Demolitionist Helmet","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/skullsaver"
         
     },
-    "when": "┃ Prevents your head from"
+    "when": {"extra":[{"bold":true,"color":"light_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Skull Saver","underlined":false}],"text":""}
 }
         ],
         "fallback": {

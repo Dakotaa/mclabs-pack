@@ -10,105 +10,91 @@
         "model": "minecraft:item/arrest"
         
     },
-    "when": "Arrest Cooldown I"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Arrest Cooldown I"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/arrest2"
         
     },
-    "when": "Arrest Cooldown II"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Arrest Cooldown II"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/arrest3"
         
     },
-    "when": "Arrest Cooldown III"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Arrest Cooldown III"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/arrest4"
         
     },
-    "when": "Arrest Cooldown IV"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Arrest Cooldown IV"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/arrest5"
         
     },
-    "when": "Arrest Cooldown V"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Arrest Cooldown V"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/canine1"
         
     },
-    "when": "Canine I"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "blue", "obfuscated": false, "strikethrough": false, "text": "Canine I"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/canine2"
         
     },
-    "when": "Canine II"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "blue", "obfuscated": false, "strikethrough": false, "text": "Canine II"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/canine3"
         
     },
-    "when": "Canine III"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/cripple"
-        
-    },
-    "when": "Cripple"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/daze"
-        
-    },
-    "when": "Daze"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "blue", "obfuscated": false, "strikethrough": false, "text": "Canine III"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/highstakes"
         
     },
-    "when": "High Stakes"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "High Stakes"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/jump2"
         
     },
-    "when": "Power Leap I"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "blue", "obfuscated": false, "strikethrough": false, "text": "Power Leap I"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/jump3"
         
     },
-    "when": "Power Leap II"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "blue", "obfuscated": false, "strikethrough": false, "text": "Power Leap II"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/jump4"
         
     },
-    "when": "Power Leap III"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "blue", "obfuscated": false, "strikethrough": false, "text": "Power Leap III"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/jumpboost"
         
     },
-    "when": "Jump Boost"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": ""}], "text": "Jump Boost"}
 },{
     "model": {
         "type": "minecraft:model",
@@ -178,56 +164,56 @@
         "model": "minecraft:item/speed1"
         
     },
-    "when": "Speed Surge I"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "blue", "obfuscated": false, "strikethrough": false, "text": "Speed Surge I"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/speed2"
         
     },
-    "when": "Speed Surge II"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "blue", "obfuscated": false, "strikethrough": false, "text": "Speed Surge II"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/speed3"
         
     },
-    "when": "Speed Surge III"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "blue", "obfuscated": false, "strikethrough": false, "text": "Speed Surge III"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/speed4"
         
     },
-    "when": "Speed Surge IV"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "blue", "obfuscated": false, "strikethrough": false, "text": "Speed Surge IV"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/speed5"
         
     },
-    "when": "Speed Surge V"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "blue", "obfuscated": false, "strikethrough": false, "text": "Speed Surge V"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/vision1"
         
     },
-    "when": "Vision I"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Radar I"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/vision2"
         
     },
-    "when": "Vision II"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Radar II"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/vision3"
         
     },
-    "when": "Vision III"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Radar III"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",

@@ -7,24 +7,17 @@
             {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/alkanizedwheatium"
-        
-    },
-    "when": "Alkanized Wheatium"
-},{
-    "model": {
-        "type": "minecraft:model",
         "model": "minecraft:item/insta_smelt"
         
     },
-    "when": "Insta-Smelt"
+    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Insta-Smelt","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/boss_soul"
         
     },
-    "when": "Boss Soul"
+    "when": {"bold":true,"color":"gold","italic":false,"text":"Boss Soul"}
 }
         ],
         "fallback": {

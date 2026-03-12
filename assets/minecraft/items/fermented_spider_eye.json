@@ -10,7 +10,7 @@
         "model": "minecraft:item/soul_of_fright"
         
     },
-    "when": "Soul of Fright"
+    "when": {"bold":true,"color":"#880808","extra":[{"bold":true,"italic":true,"text":"Fright"}],"italic":false,"text":"Soul of "}
 }
         ],
         "fallback": {

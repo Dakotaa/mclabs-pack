@@ -1,6 +1,20 @@
 {
     "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/flower_banner_pattern"
+        "model": "minecraft:item/evidence_auto_filer"
+        
+    },
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#0F75FF", "obfuscated": false, "strikethrough": false, "text": "Evidence Auto-Filer"}], "text": ""}
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/flower_banner_pattern"
+        }
     }
 }

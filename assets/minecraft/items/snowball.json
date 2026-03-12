@@ -10,7 +10,7 @@
         "model": "minecraft:item/cooked_rice"
         
     },
-    "when": "Cooked Sushi Rice"
+    "when": {"extra":[{"bold":false,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"Cooked Sushi Rice","underlined":false}],"text":""}
 }
         ],
         "fallback": {

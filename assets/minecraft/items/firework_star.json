@@ -10,14 +10,14 @@
         "model": "minecraft:item/haunted_coin"
         
     },
-    "when": "Haunted Coin"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#AF0000", "obfuscated": false, "strikethrough": false, "text": "Haunted Coin"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/smoke_bomb"
         
     },
-    "when": "Smoke Bomb"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Smoke Bomb"}], "text": ""}
 }
         ],
         "fallback": {

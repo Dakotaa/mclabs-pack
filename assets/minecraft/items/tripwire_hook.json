@@ -10,119 +10,119 @@
         "model": "minecraft:item/commonkey"
         
     },
-    "when": "Common"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Common Tag Crate Key"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/favourites"
         
     },
-    "when": "Favourites Crate Key"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "dark_purple", "obfuscated": false, "strikethrough": false, "text": "Favourites Crate "}, {"italic":false,"bold":false,"color":"white","text":"Key"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/halloween"
         
     },
-    "when": "Halloween Crate Key"
+    "when": {"extra":[{"bold":true,"color":"gold","italic":false,"obfuscated":false,"strikethrough":false,"text":"Halloween Crate ","underlined":false},{"bold":false,"color":"dark_gray","italic":false,"text":"Key"}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/holiday"
         
     },
-    "when": "Holiday Crate Key"
+    "when": {"extra":[{"bold":true,"color":"#07DA00","italic":false,"obfuscated":false,"strikethrough":false,"text":"Holiday ","underlined":false},{"bold":true,"color":"#F70000","italic":false,"obfuscated":false,"strikethrough":false,"text":"Crate ","underlined":false},{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Key","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/mastery"
         
     },
-    "when": "Mastery Key"
+    "when": {"extra":[{"bold":true,"color":"dark_red","italic":false,"obfuscated":false,"strikethrough":false,"text":"Mastery Key","underlined":true}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/mystery"
         
     },
-    "when": "Mystery Crate Key"
+    "when": {"extra":[{"bold":true,"color":"#FFE319","italic":false,"obfuscated":false,"strikethrough":false,"text":"Mystery Crate ","underlined":false},{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Key","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/prestige"
         
     },
-    "when": "Prestige Key"
+    "when": {"extra":[{"bold":true,"color":"dark_red","italic":false,"obfuscated":false,"strikethrough":false,"text":"Prestige Key","underlined":true}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/rarekey"
         
     },
-    "when": "Rare"
+    "when": {"extra":[{"bold":true,"color":"light_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Rare Tag Crate Key","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/spawner_key"
         
     },
-    "when": "Spawner Crate Key"
+    "when": {"extra":[{"bold":true,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"Spawner Crate ","underlined":false},{"bold":false,"color":"white","italic":false,"text":"Key"}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/summer"
         
     },
-    "when": "Summer CrateKey"
+    "when": {"extra":[{"bold":false,"color":"yellow","italic":false,"obfuscated":false,"strikethrough":false,"text":"❋ ","underlined":false},{"bold":true,"color":"gold","italic":false,"text":"Summer Crate "},{"bold":false,"color":"yellow","italic":false,"text":"❋ "},{"color":"white","italic":false,"text":"Key"}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/supply1"
         
     },
-    "when": "Supply Crate I Key"
+    "when": {"extra":[{"bold":true,"color":"dark_aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Supply Crate I ","underlined":false},{"bold":false,"color":"white","italic":false,"text":"Key"}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/supply2"
         
     },
-    "when": "Supply Crate II Key"
+    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Supply Crate II ","underlined":false},{"bold":false,"color":"white","italic":false,"text":"Key"}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/supply3"
         
     },
-    "when": "Supply Crate III Key"
+    "when": {"extra":[{"bold":true,"color":"#002DCC","italic":false,"obfuscated":false,"strikethrough":false,"text":"Supply Crate III ","underlined":false},{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Key","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/supply4"
         
     },
-    "when": "Supply Crate IV Key"
+    "when": {"extra":[{"bold":true,"color":"#FF19E3","italic":false,"obfuscated":false,"strikethrough":false,"text":"Supply Crate IV ","underlined":false},{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Key","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/supply5"
         
     },
-    "when": "Supply Crate V Key"
+    "when": {"extra":[{"bold":true,"color":"#C32924","italic":false,"obfuscated":false,"strikethrough":false,"text":"Supply Crate V ","underlined":false},{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Key","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/supply6"
         
     },
-    "when": "Supply Crate VI Key"
+    "when": {"extra":[{"bold":true,"color":"#FF74FD","italic":false,"obfuscated":false,"strikethrough":false,"text":"Supply Crate VI ","underlined":false},{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Key","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/tag"
         
     },
-    "when": "Tag Key Crate Key"
+    "when": {"extra":[{"bold":true,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"Tag Key Crate Key","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
@@ -136,42 +136,49 @@
         "model": "minecraft:item/tool"
         
     },
-    "when": "Tool Crate Key"
+    "when": {"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Tool Crate ","underlined":false},{"bold":false,"color":"white","italic":false,"text":"Key"}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/uncommonkey"
         
     },
-    "when": "Uncommon"
+    "when": {"extra":[{"bold":true,"color":"dark_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Uncommon Tag Crate Key","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/veryrarekey"
         
     },
-    "when": "Very Rare"
+    "when": {"extra":[{"bold":true,"color":"red","italic":false,"obfuscated":false,"strikethrough":false,"text":"Very Rare Tag Crate Key","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/deluxevoterkey"
         
     },
-    "when": "Deluxe Voter Crate Key"
+    "when": {"extra":[{"bold":true,"color":"gold","italic":false,"obfuscated":false,"strikethrough":false,"text":"Deluxe Voter Crate ","underlined":false},{"bold":false,"color":"white","italic":false,"text":"Key"}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/voterkey"
         
     },
-    "when": "Voter Crate Key"
+    "when": {"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Voter Crate ","underlined":false},{"bold":false,"color":"white","italic":false,"text":"Key"}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/brawlerhook"
         
     },
-    "when": "Pull in a nearby mob and"
+    "when": {"bold":true,"color":"gold","italic":false,"text":"Brawler Hook"}
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/brawlerhook"
+        
+    },
+    "when": {"color":"white","italic":false,"text":"Brawler Helmet"}
 }
         ],
         "fallback": {

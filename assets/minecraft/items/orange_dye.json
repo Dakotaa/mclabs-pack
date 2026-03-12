@@ -10,21 +10,21 @@
         "model": "minecraft:item/chowartusite"
         
     },
-    "when": "Chowartusite"
+    "when": {"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Chowartusite","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/orange_sugar_cookie"
         
     },
-    "when": "Orange Sugar Cookie"
+    "when": {"extra":[{"bold":true,"color":"#FF9B00","italic":false,"obfuscated":false,"strikethrough":false,"text":"Orange Sugar Cookie","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/exceedinglyrarebribefragment"
         
     },
-    "when": "Exceedingly Rare Bribe Fragment"
+    "when": {"extra":[{"bold":true,"color":"#FF46C4","italic":false,"obfuscated":false,"strikethrough":false,"text":"Exceedingly Rare Bribe Fragment","underlined":false}],"text":""}
 }
         ],
         "fallback": {

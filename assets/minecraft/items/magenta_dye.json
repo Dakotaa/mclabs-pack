@@ -10,7 +10,7 @@
         "model": "minecraft:item/sweemelonide"
         
     },
-    "when": "Sweemelonide"
+    "when": {"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Sweemelonide","underlined":false}],"text":""}
 }
         ],
         "fallback": {

@@ -7,31 +7,24 @@
             {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/carnage_booster"
-        
-    },
-    "when": "Halloween Carnage Booster"
-},{
-    "model": {
-        "type": "minecraft:model",
         "model": "minecraft:item/pricebooster"
         
     },
-    "when": "All Chem Price Booster"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "light_purple", "obfuscated": false, "strikethrough": false, "text": "All Chem Price Booster"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/randombooster"
         
     },
-    "when": "Random Chem Price Booster"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "light_purple", "obfuscated": false, "strikethrough": false, "text": "Random Chem Price Booster"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/singlebooster"
         
     },
-    "when": "Choice Chem Price Booster"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "light_purple", "obfuscated": false, "strikethrough": false, "text": "Choice Chem Price Booster"}], "text": ""}
 }
         ],
         "fallback": {

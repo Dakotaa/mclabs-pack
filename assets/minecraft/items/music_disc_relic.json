@@ -10,7 +10,7 @@
         "model": "minecraft:item/prison_pocket"
         
     },
-    "when": "Prison Pocket"
+    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Prison Pocket","underlined":false}],"text":""}
 }
         ],
         "fallback": {

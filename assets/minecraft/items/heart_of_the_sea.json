@@ -10,7 +10,7 @@
         "model": "minecraft:item/energy_extender"
         
     },
-    "when": "Energy Extender"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "yellow", "obfuscated": false, "strikethrough": false, "text": "Energy Extender"}], "text": ""}
 }
         ],
         "fallback": {

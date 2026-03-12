@@ -10,14 +10,14 @@
         "model": "minecraft:item/betromelonide"
         
     },
-    "when": "Betromelonide"
+    "when": {"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Betromelonide","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/raw_rice"
         
     },
-    "when": "Raw Sushi Rice"
+    "when": {"extra":[{"bold":false,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"Raw Sushi Rice","underlined":false}],"text":""}
 }
         ],
         "fallback": {

@@ -10,7 +10,7 @@
         "model": "minecraft:item/space_boots"
         
     },
-    "when": "Space Boots"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "light_purple", "obfuscated": false, "strikethrough": false, "text": "Space Boots"}], "text": ""}
 }
         ],
         "fallback": {

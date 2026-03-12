@@ -10,42 +10,42 @@
         "model": "minecraft:item/smuggleflightticket"
         
     },
-    "when": "Smuggle Flight Ticket"
+    "when": {"extra":[{"bold":true,"color":"dark_green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Smuggle Flight Ticket","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/glompkinide"
         
     },
-    "when": "Glompkinide"
+    "when": {"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Glompkinide","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/taser"
         
     },
-    "when": "Taser"
+    "when": {"extra":[{"bold":true,"color":"yellow","italic":false,"obfuscated":false,"strikethrough":false,"text":"Taser","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/dolphin_fin"
         
     },
-    "when": "Dolphin Fin"
+    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Dolphin Fin","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/sleigh_ride_ticket"
         
     },
-    "when": "Sleigh Ride Ticket"
+    "when": {"extra":[{"bold":true,"color":"dark_red","italic":false,"obfuscated":false,"strikethrough":false,"text":"Sleigh Ride Ticket","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/pitfragment"
         
     },
-    "when": "Pit Book Fragment"
+    "when": {"extra":[{"bold":true,"color":"#FF46C4","italic":false,"obfuscated":false,"strikethrough":false,"text":"Pit Book Fragment","underlined":false}],"text":""}
 }
         ],
         "fallback": {

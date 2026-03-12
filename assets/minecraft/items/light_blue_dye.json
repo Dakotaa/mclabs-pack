@@ -7,24 +7,17 @@
             {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/chorootinide"
-        
-    },
-    "when": "Chorootinide"
-},{
-    "model": {
-        "type": "minecraft:model",
         "model": "minecraft:item/blue_sugar_cookie"
         
     },
-    "when": "Blue Sugar Cookie"
+    "when": {"extra":[{"bold":true,"color":"#4EB9FF","italic":false,"obfuscated":false,"strikethrough":false,"text":"Blue Sugar Cookie","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/commonbribefragment"
         
     },
-    "when": "Common Bribe Fragment"
+    "when": {"extra":[{"bold":true,"color":"#FF46C4","italic":false,"obfuscated":false,"strikethrough":false,"text":"Common Bribe Fragment","underlined":false}],"text":""}
 }
         ],
         "fallback": {

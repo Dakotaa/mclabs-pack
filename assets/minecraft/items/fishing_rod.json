@@ -10,42 +10,42 @@
         "model": "minecraft:item/biogenerod"
         
     },
-    "when": "Bio-Generod"
+    "when": {"extra":[{"bold":true,"color":"#64B5F6","italic":false,"obfuscated":false,"strikethrough":false,"text":"B","underlined":false},{"bold":true,"color":"#5DB1F4","italic":false,"obfuscated":false,"strikethrough":false,"text":"i","underlined":false},{"bold":true,"color":"#56ACF3","italic":false,"obfuscated":false,"strikethrough":false,"text":"o","underlined":false},{"bold":true,"color":"#4FA8F1","italic":false,"obfuscated":false,"strikethrough":false,"text":"-","underlined":false},{"bold":true,"color":"#48A3EF","italic":false,"obfuscated":false,"strikethrough":false,"text":"G","underlined":false},{"bold":true,"color":"#419FEE","italic":false,"obfuscated":false,"strikethrough":false,"text":"e","underlined":false},{"bold":true,"color":"#3A9AEC","italic":false,"obfuscated":false,"strikethrough":false,"text":"n","underlined":false},{"bold":true,"color":"#3396EA","italic":false,"obfuscated":false,"strikethrough":false,"text":"e","underlined":false},{"bold":true,"color":"#2C91E8","italic":false,"obfuscated":false,"strikethrough":false,"text":"r","underlined":false},{"bold":true,"color":"#258DE7","italic":false,"obfuscated":false,"strikethrough":false,"text":"o","underlined":false},{"bold":true,"color":"#1E88E5","italic":false,"obfuscated":false,"strikethrough":false,"text":"d","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/grappling_hook"
         
     },
-    "when": "Grappling Hook"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "gold", "obfuscated": false, "strikethrough": false, "text": "Grappling Hook"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/master_baiter_rod"
         
     },
-    "when": "Master Baiter Rod"
+    "when": {"extra":[{"bold":true,"color":"#0065CB","italic":false,"obfuscated":false,"strikethrough":false,"text":"M","underlined":false},{"bold":true,"color":"#006ACE","italic":false,"obfuscated":false,"strikethrough":false,"text":"a","underlined":false},{"bold":true,"color":"#006FD1","italic":false,"obfuscated":false,"strikethrough":false,"text":"s","underlined":false},{"bold":true,"color":"#0074D4","italic":false,"obfuscated":false,"strikethrough":false,"text":"t","underlined":false},{"bold":true,"color":"#0079D7","italic":false,"obfuscated":false,"strikethrough":false,"text":"e","underlined":false},{"bold":true,"color":"#007EDA","italic":false,"obfuscated":false,"strikethrough":false,"text":"r ","underlined":false},{"bold":true,"color":"#0083DD","italic":false,"obfuscated":false,"strikethrough":false,"text":"B","underlined":false},{"bold":true,"color":"#0088E0","italic":false,"obfuscated":false,"strikethrough":false,"text":"a","underlined":false},{"bold":true,"color":"#008DE3","italic":false,"obfuscated":false,"strikethrough":false,"text":"i","underlined":false},{"bold":true,"color":"#0092E6","italic":false,"obfuscated":false,"strikethrough":false,"text":"t","underlined":false},{"bold":true,"color":"#0097E9","italic":false,"obfuscated":false,"strikethrough":false,"text":"e","underlined":false},{"bold":true,"color":"#009CEC","italic":false,"obfuscated":false,"strikethrough":false,"text":"r ","underlined":false},{"bold":true,"color":"#00A1EF","italic":false,"obfuscated":false,"strikethrough":false,"text":"R","underlined":false},{"bold":true,"color":"#00A6F2","italic":false,"obfuscated":false,"strikethrough":false,"text":"o","underlined":false},{"bold":true,"color":"#00ABF5","italic":false,"obfuscated":false,"strikethrough":false,"text":"d","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/legacy_of_chuck"
         
     },
-    "when": "Legacy of Chuck"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "red", "obfuscated": false, "strikethrough": false, "text": "Legacy of Chuck"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/flesh_rod"
         
     },
-    "when": "Flesh Rod"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#A85Cff", "obfuscated": false, "strikethrough": false, "text": "Flesh Rod"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/fish_fryer"
         
     },
-    "when": "Molten Tackle I"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "red", "obfuscated": false, "strikethrough": false, "text": "Fish Fryer"}], "text": ""}
 }
         ],
         "fallback": {

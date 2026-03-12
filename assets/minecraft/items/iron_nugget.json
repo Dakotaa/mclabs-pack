@@ -10,63 +10,63 @@
         "model": "minecraft:item/cratescrap"
         
     },
-    "when": "Crate Scrap"
+    "when": {"extra":[{"bold":true,"color":"#E95C00","italic":false,"obfuscated":false,"strikethrough":false,"text":"Crate Scrap","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/blinkboots2"
         
     },
-    "when": "Blink Boots Piece 2/5"
+    "when": {"italic": false, "color": "white", "text": "Tooth of The Damned"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/cerberuspaw1"
         
     },
-    "when": "Cerberus Paw Piece 1/5"
+    "when": {"italic": false, "color": "white", "text": "Cerberus Claw #1"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/cerberuspaw2"
         
     },
-    "when": "Cerberus Paw Piece 2/5"
+    "when": {"italic": false, "color": "white", "text": "Cerberus Claw #2"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/cerberuspaw3"
         
     },
-    "when": "Cerberus Paw Piece 3/5"
+    "when": {"italic": false, "color": "white", "text": "Cerberus Claw #3"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/cerberuspaw4"
         
     },
-    "when": "Cerberus Paw Piece 4/5"
+    "when": {"italic": false, "color": "white", "text": "Cerberus Claw #4"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/cerberuspaw5"
         
     },
-    "when": "Cerberus Paw Piece 5/5"
+    "when": {"italic": false, "color": "white", "text": "Cerberus Claw #5"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/excalibur1"
         
     },
-    "when": "Excalibur Piece 1/5"
+    "when": {"italic": false, "color": "white", "text": "Excalibur Pommel"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/faminescythe4"
         
     },
-    "when": "Famine Scythe Piece 4/5"
+    "when": {"italic": false, "color": "white", "text": "Scythe Ring Clamp"}
 }
         ],
         "fallback": {

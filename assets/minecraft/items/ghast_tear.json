@@ -10,7 +10,7 @@
         "model": "minecraft:item/smelling_salts"
         
     },
-    "when": "Smelling Salts"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Smelling Salts"}], "text": ""}
 }
         ],
         "fallback": {

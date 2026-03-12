@@ -10,7 +10,7 @@
         "model": "minecraft:item/papcactinide"
         
     },
-    "when": "Papcactinide"
+    "when": {"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Papcactinide","underlined":false}],"text":""}
 }
         ],
         "fallback": {

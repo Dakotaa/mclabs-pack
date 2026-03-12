@@ -10,28 +10,35 @@
         "model": "minecraft:item/caniumtransmutator"
         
     },
-    "when": "Canium Transmutator"
+    "when": {"extra":[{"bold":true,"color":"#FFFFF4","italic":false,"obfuscated":false,"strikethrough":false,"text":"Canium Transmutator","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/carnage_grinders_talisman"
         
     },
-    "when": "Carnage Grinder's Talisman"
+    "when": {"extra":[{"bold":true,"color":"#9700FF","italic":false,"obfuscated":false,"strikethrough":false,"text":"Carnage Grinder's Talisman","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/cerberuspaw"
         
     },
-    "when": "Swing to slash everything"
+    "when": {"bold":true,"color":"dark_red","italic":false,"text":"Cerberus Paw"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/instagrow"
         
     },
-    "when": "Insta-Grow"
+    "when": {"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Insta-Grow","underlined":false}],"text":""}
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/mausoleum"
+        
+    },
+    "when": {"extra":[{"bold":true,"color":"dark_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Spawn Mausoleum","underlined":false}],"text":""}
 }
         ],
         "fallback": {

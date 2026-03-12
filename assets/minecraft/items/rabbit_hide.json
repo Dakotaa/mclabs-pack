@@ -1,6 +1,27 @@
 {
     "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/rabbit_hide"
+        "model": "minecraft:item/runnerrucksack"
+        
+    },
+    "when": {"extra":[{"bold":true,"color":"#9B3F00","italic":false,"obfuscated":false,"strikethrough":false,"text":"Runner Rucksack","underlined":false}],"text":""}
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/blinkboots3"
+        
+    },
+    "when": {"color":"white","italic":false,"text":"Skin of The Damned"}
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/rabbit_hide"
+        }
     }
 }

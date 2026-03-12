@@ -10,7 +10,7 @@
         "model": "minecraft:item/shoddy_broomstick"
         
     },
-    "when": "Shoddy Broomstick"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#A85CFF", "obfuscated": false, "strikethrough": false, "text": "Shoddy Broomstick"}], "text": ""}
 }
         ],
         "fallback": {

@@ -10,7 +10,7 @@
         "model": "minecraft:item/stimulant_stew"
         
     },
-    "when": "Stimulant Stew"
+    "when": {"extra":[{"bold":true,"color":"yellow","italic":false,"obfuscated":false,"strikethrough":false,"text":"Stimulant Stew","underlined":false}],"text":""}
 }
         ],
         "fallback": {

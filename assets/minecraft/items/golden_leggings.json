@@ -10,7 +10,7 @@
         "model": "minecraft:item/smuggler_speedo"
         
     },
-    "when": "Smuggler Speedo"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "gold", "obfuscated": false, "strikethrough": false, "text": "Smuggler Speedo"}], "text": ""}
 }
         ],
         "fallback": {

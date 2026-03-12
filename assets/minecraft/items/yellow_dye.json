@@ -10,21 +10,14 @@
         "model": "minecraft:item/melpotinide"
         
     },
-    "when": "Melpotinide"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/wheapaprinide"
-        
-    },
-    "when": "Wheapaprinide"
+    "when": {"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Melpotinide","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/superrarebribefragment"
         
     },
-    "when": "Super Rare Bribe Fragment"
+    "when": {"extra":[{"bold":true,"color":"#FF46C4","italic":false,"obfuscated":false,"strikethrough":false,"text":"Super Rare Bribe Fragment","underlined":false}],"text":""}
 }
         ],
         "fallback": {

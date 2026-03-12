@@ -10,7 +10,7 @@
         "model": "minecraft:item/mistletoe"
         
     },
-    "when": "Mistletoe"
+    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Mistletoe","underlined":false}],"text":""}
 }
         ],
         "fallback": {

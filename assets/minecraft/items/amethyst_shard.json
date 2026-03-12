@@ -17,7 +17,14 @@
         "model": "minecraft:item/potent_horse_stimulant"
         
     },
-    "when": "Potent Horse Stimulant"
+    "when": {"extra":[{"bold":true,"color":"gold","italic":false,"obfuscated":false,"strikethrough":false,"text":"Potent Horse Stimulant","underlined":false}],"text":""}
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/potent_horse_stimulant"
+        
+    },
+    "when": {"extra":[{"bold":true,"color":"#D07809","italic":false,"obfuscated":false,"strikethrough":false,"text":"P","underlined":false},{"bold":true,"color":"#D27A0A","italic":false,"obfuscated":false,"strikethrough":false,"text":"o","underlined":false},{"bold":true,"color":"#D57C0B","italic":false,"obfuscated":false,"strikethrough":false,"text":"t","underlined":false},{"bold":true,"color":"#D77E0C","italic":false,"obfuscated":false,"strikethrough":false,"text":"e","underlined":false},{"bold":true,"color":"#D97F0E","italic":false,"obfuscated":false,"strikethrough":false,"text":"n","underlined":false},{"bold":true,"color":"#DC810F","italic":false,"obfuscated":false,"strikethrough":false,"text":"t ","underlined":false},{"bold":true,"color":"#DE8310","italic":false,"obfuscated":false,"strikethrough":false,"text":"H","underlined":false},{"bold":true,"color":"#E18511","italic":false,"obfuscated":false,"strikethrough":false,"text":"o","underlined":false},{"bold":true,"color":"#E38712","italic":false,"obfuscated":false,"strikethrough":false,"text":"r","underlined":false},{"bold":true,"color":"#E58913","italic":false,"obfuscated":false,"strikethrough":false,"text":"s","underlined":false},{"bold":true,"color":"#E88A15","italic":false,"obfuscated":false,"strikethrough":false,"text":"e ","underlined":false},{"bold":true,"color":"#EA8C16","italic":false,"obfuscated":false,"strikethrough":false,"text":"S","underlined":false},{"bold":true,"color":"#EC8E17","italic":false,"obfuscated":false,"strikethrough":false,"text":"t","underlined":false},{"bold":true,"color":"#EF9018","italic":false,"obfuscated":false,"strikethrough":false,"text":"i","underlined":false},{"bold":true,"color":"#F19219","italic":false,"obfuscated":false,"strikethrough":false,"text":"m","underlined":false},{"bold":true,"color":"#F4941A","italic":false,"obfuscated":false,"strikethrough":false,"text":"u","underlined":false},{"bold":true,"color":"#F6951C","italic":false,"obfuscated":false,"strikethrough":false,"text":"l","underlined":false},{"bold":true,"color":"#F8971D","italic":false,"obfuscated":false,"strikethrough":false,"text":"a","underlined":false},{"bold":true,"color":"#FB991E","italic":false,"obfuscated":false,"strikethrough":false,"text":"n","underlined":false},{"bold":true,"color":"#FD9B1F","italic":false,"obfuscated":false,"strikethrough":false,"text":"t","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",

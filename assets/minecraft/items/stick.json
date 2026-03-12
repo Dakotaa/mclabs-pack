@@ -1,6 +1,48 @@
 {
     "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/stick"
+        "model": "minecraft:item/faminescythe1"
+        
+    },
+    "when": {"color":"white","italic":false,"text":"Scythe Snath"}
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/faminescythe2"
+        
+    },
+    "when": {"color":"white","italic":false,"text":"Upper Scythe Handle"}
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/baton"
+        
+    },
+    "when": {"extra":[{"bold":true,"color":"blue","italic":false,"obfuscated":false,"strikethrough":false,"text":"Baton","underlined":false}],"text":""}
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/faminescythe3"
+        
+    },
+    "when": {"color":"white","italic":false,"text":"Lower Scythe Handle"}
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/supplier_sidekick"
+        
+    },
+    "when": {"extra":[{"bold":true,"color":"#008DCC","italic":false,"obfuscated":false,"strikethrough":false,"text":"S","underlined":false},{"bold":true,"color":"#0691CD","italic":false,"obfuscated":false,"strikethrough":false,"text":"u","underlined":false},{"bold":true,"color":"#0B94CE","italic":false,"obfuscated":false,"strikethrough":false,"text":"p","underlined":false},{"bold":true,"color":"#1198CE","italic":false,"obfuscated":false,"strikethrough":false,"text":"p","underlined":false},{"bold":true,"color":"#169BCF","italic":false,"obfuscated":false,"strikethrough":false,"text":"l","underlined":false},{"bold":true,"color":"#1C9FD0","italic":false,"obfuscated":false,"strikethrough":false,"text":"i","underlined":false},{"bold":true,"color":"#21A2D1","italic":false,"obfuscated":false,"strikethrough":false,"text":"e","underlined":false},{"bold":true,"color":"#27A6D2","italic":false,"obfuscated":false,"strikethrough":false,"text":"r ","underlined":false},{"bold":true,"color":"#2CA9D2","italic":false,"obfuscated":false,"strikethrough":false,"text":"S","underlined":false},{"bold":true,"color":"#32ADD3","italic":false,"obfuscated":false,"strikethrough":false,"text":"i","underlined":false},{"bold":true,"color":"#37B0D4","italic":false,"obfuscated":false,"strikethrough":false,"text":"d","underlined":false},{"bold":true,"color":"#3DB4D5","italic":false,"obfuscated":false,"strikethrough":false,"text":"e","underlined":false},{"bold":true,"color":"#42B7D6","italic":false,"obfuscated":false,"strikethrough":false,"text":"k","underlined":false},{"bold":true,"color":"#48BBD6","italic":false,"obfuscated":false,"strikethrough":false,"text":"i","underlined":false},{"bold":true,"color":"#4DBED7","italic":false,"obfuscated":false,"strikethrough":false,"text":"c","underlined":false},{"bold":true,"color":"#53C2D8","italic":false,"obfuscated":false,"strikethrough":false,"text":"k","underlined":false}],"text":""}
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/stick"
+        }
     }
 }

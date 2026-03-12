@@ -18,6 +18,13 @@
         
     },
     "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "red", "obfuscated": false, "strikethrough": false, "text": "Paxel"}], "text": ""}
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/farmers_friend_diamond"
+        
+    },
+    "when": {"extra":[{"bold":true,"color":"yellow","italic":false,"obfuscated":false,"strikethrough":false,"text":"Farmer's Friend","underlined":false}],"text":""}
 }
         ],
         "fallback": {

@@ -10,21 +10,21 @@
         "model": "minecraft:item/hood_haunter"
         
     },
-    "when": "Hood Haunter"
+    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Hood Haunter","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/psychohood4"
         
     },
-    "when": "Psycho Hood Piece 4/5"
+    "when": {"color":"white","italic":false,"text":"Left Psycho Eye"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/psychohood5"
         
     },
-    "when": "Psycho Hood Piece 5/5"
+    "when": {"color":"white","italic":false,"text":"Right Psycho Eye"}
 }
         ],
         "fallback": {

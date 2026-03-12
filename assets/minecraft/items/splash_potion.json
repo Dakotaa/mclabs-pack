@@ -10,28 +10,28 @@
         "model": "minecraft:item/splash_potion_of_visibility"
         
     },
-    "when": "Splash Potion of Visibility"
+    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Splash Potion of Visibility","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/eggnog"
         
     },
-    "when": "Eggnog"
+    "when": {"extra":[{"bold":true,"color":"#F4DAB8","italic":false,"obfuscated":false,"strikethrough":false,"text":"Eggnog","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/mulled_wine"
         
     },
-    "when": "Mulled Wine"
+    "when": {"extra":[{"bold":true,"color":"#770000","italic":false,"obfuscated":false,"strikethrough":false,"text":"Mulled Wine","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/peppermint_mocha"
         
     },
-    "when": "Peppermint Mocha"
+    "when": {"extra":[{"bold":true,"color":"#C79C6D","italic":false,"obfuscated":false,"strikethrough":false,"text":"Peppermint Mocha","underlined":false}],"text":""}
 }
         ],
         "fallback": {

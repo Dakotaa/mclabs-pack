@@ -10,14 +10,14 @@
         "model": "minecraft:item/caltrops"
         
     },
-    "when": "Caltrops"
+    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Caltrops","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/crateboost3"
         
     },
-    "when": "Mega Crate Roll Booster"
+    "when": {"extra":[{"bold":true,"color":"yellow","italic":false,"obfuscated":false,"strikethrough":false,"text":"Mega Crate Roll Booster","underlined":false}],"text":""}
 }
         ],
         "fallback": {

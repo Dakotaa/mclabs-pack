@@ -10,21 +10,28 @@
         "model": "minecraft:item/pumpkoniumtransmutator"
         
     },
-    "when": "Pumpkonium Transmutator"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#E47200", "obfuscated": false, "strikethrough": false, "text": "Pumpkonium Transmutator"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/pumpkin_popper"
         
     },
-    "when": "Pumpkin Popper"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#EEB000", "obfuscated": false, "strikethrough": false, "text": "Pumpkin Popper"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/fireballstaff5"
         
     },
-    "when": "Fireball Staff Piece 5/5"
+    "when": {"italic": false, "color": "white", "text": "Fireball Staff Crystal"}
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/autoreplant"
+        
+    },
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "gold", "obfuscated": false, "strikethrough": false, "text": "Enhanced Farming Access"}], "text": ""}
 }
         ],
         "fallback": {

@@ -45,7 +45,7 @@
         },
         "property": "minecraft:using_item"
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#930000", "obfuscated": false, "strikethrough": false, "text": "Carnage Bow"}], "text": ""}
+    "when": {"extra":[{"bold":true,"color":"#5B0505","italic":false,"obfuscated":false,"strikethrough":false,"text":"Carnage Cannon","underlined":false}],"text":""}
 },{
     "model": 
     {

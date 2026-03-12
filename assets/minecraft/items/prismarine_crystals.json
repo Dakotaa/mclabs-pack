@@ -10,14 +10,14 @@
         "model": "minecraft:item/glocobinide"
         
     },
-    "when": "Glocobinide"
+    "when": {"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Glocobinide","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/boosterfragment"
         
     },
-    "when": "Booster Fragment"
+    "when": {"extra":[{"bold":true,"color":"#FF46C4","italic":false,"obfuscated":false,"strikethrough":false,"text":"Booster Fragment","underlined":false}],"text":""}
 }
         ],
         "fallback": {

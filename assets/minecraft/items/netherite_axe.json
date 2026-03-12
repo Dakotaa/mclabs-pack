@@ -10,35 +10,35 @@
         "model": "minecraft:item/flesh_grinder"
         
     },
-    "when": "Flesh Grinder"
+    "when": {"extra":[{"bold":true,"color":"#C22727","italic":false,"obfuscated":false,"strikethrough":false,"text":"F","underlined":false},{"bold":true,"color":"#C12626","italic":false,"obfuscated":false,"strikethrough":false,"text":"l","underlined":false},{"bold":true,"color":"#BF2424","italic":false,"obfuscated":false,"strikethrough":false,"text":"e","underlined":false},{"bold":true,"color":"#BD2222","italic":false,"obfuscated":false,"strikethrough":false,"text":"s","underlined":false},{"bold":true,"color":"#B91F1F","italic":false,"obfuscated":false,"strikethrough":false,"text":"h","underlined":false},{"bold":true,"color":"#B51B1B","italic":false,"obfuscated":false,"strikethrough":false,"text":" ","underlined":false},{"bold":true,"color":"#B11818","italic":false,"obfuscated":false,"strikethrough":false,"text":"G","underlined":false},{"bold":true,"color":"#AD1414","italic":false,"obfuscated":false,"strikethrough":false,"text":"r","underlined":false},{"bold":true,"color":"#A91010","italic":false,"obfuscated":false,"strikethrough":false,"text":"i","underlined":false},{"bold":true,"color":"#A50D0D","italic":false,"obfuscated":false,"strikethrough":false,"text":"n","underlined":false},{"bold":true,"color":"#A30B0B","italic":false,"obfuscated":false,"strikethrough":false,"text":"d","underlined":false},{"bold":true,"color":"#A10909","italic":false,"obfuscated":false,"strikethrough":false,"text":"e","underlined":false},{"bold":true,"color":"#A10909","italic":false,"obfuscated":false,"strikethrough":false,"text":"r","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/headsmans_halberd_netherite"
         
     },
-    "when": "Headsman's Halberd"
+    "when": {"extra":[{"bold":true,"color":"dark_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Headsman's Halberd","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/herbalizer_netherite"
         
     },
-    "when": "Plow II"
+    "when": {"extra":[{"bold":true,"color":"gold","italic":false,"obfuscated":false,"strikethrough":false,"text":"Herbalizer Mk. II","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/paxel_netherite"
         
     },
-    "when": "Amorphous II"
+    "when": {"extra":[{"bold":true,"color":"red","italic":false,"obfuscated":false,"strikethrough":false,"text":"Paxel","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/cocobinator_netherite"
         
     },
-    "when": "Cocobinator"
+    "when": {"extra":[{"bold":true,"color":"light_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Cocobinator","underlined":false}],"text":""}
 }
         ],
         "fallback": {

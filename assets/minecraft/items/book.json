@@ -10,7 +10,7 @@
         "model": "minecraft:item/unlockingabilities"
         
     },
-    "when": "Unlocking Abilities"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "blue", "obfuscated": false, "strikethrough": false, "text": "Unlocking Abilities"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",

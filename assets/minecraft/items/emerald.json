@@ -10,35 +10,28 @@
         "model": "minecraft:item/gift_of_giving"
         
     },
-    "when": "Gift of Giving"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#F50059", "obfuscated": false, "strikethrough": false, "text": "Gift of Giving"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/large_holiday_bonus"
         
     },
-    "when": "Large Holiday Bonus"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/advertcredit"
-        
-    },
-    "when": "Advert Credit"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "gold", "obfuscated": false, "strikethrough": false, "text": "Large Holiday Bonus"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/getoutcredit"
         
     },
-    "when": "Get out of Jail"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "dark_purple", "obfuscated": false, "strikethrough": false, "text": "Get out of Jail Free Credit "},{"italic": false,"color": "gray", "text": "(Right Click)"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/tagcredit"
         
     },
-    "when": "Tag Credit"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "gold", "obfuscated": false, "strikethrough": false, "text": "Tag Credit"}], "text": ""}
 }
         ],
         "fallback": {

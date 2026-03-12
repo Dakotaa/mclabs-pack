@@ -10,7 +10,7 @@
         "model": "minecraft:item/mounttoken"
         
     },
-    "when": "Mount Rental Coupon"
+    "when": {"extra":[{"bold":true,"color":"yellow","italic":false,"obfuscated":false,"strikethrough":false,"text":"Mount Rental Coupon","underlined":false}],"text":""}
 }
         ],
         "fallback": {

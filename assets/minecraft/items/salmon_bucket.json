@@ -10,7 +10,7 @@
         "model": "minecraft:item/chum_bucket"
         
     },
-    "when": "Chum Bucket"
+    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Chum Bucket","underlined":false}],"text":""}
 }
         ],
         "fallback": {

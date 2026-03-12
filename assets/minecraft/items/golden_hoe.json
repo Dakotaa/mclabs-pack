@@ -10,14 +10,14 @@
         "model": "minecraft:item/disposable_plow"
         
     },
-    "when": "Disposable Plow"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Disposable Plow"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/autoreplant"
         
     },
-    "when": "Auto-Replant"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "gold", "obfuscated": false, "strikethrough": false, "text": "Enhanced Farming Access"}], "text": ""}
 }
         ],
         "fallback": {

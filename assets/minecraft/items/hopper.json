@@ -10,7 +10,7 @@
         "model": "minecraft:item/chunkhopper"
         
     },
-    "when": "Chunk Hopper"
+    "when": {"extra": [{"italic": false, "bold": true, "color": "yellow", "text": "Chunk Hopper"}], "text": ""}
 }
         ],
         "fallback": {

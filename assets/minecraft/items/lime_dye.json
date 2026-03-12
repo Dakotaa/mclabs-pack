@@ -7,13 +7,6 @@
             {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/broomcactide"
-        
-    },
-    "when": "Broomcactide"
-},{
-    "model": {
-        "type": "minecraft:model",
         "model": "minecraft:item/selectionactive"
         
     },

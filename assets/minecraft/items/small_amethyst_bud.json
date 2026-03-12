@@ -10,7 +10,7 @@
         "model": "minecraft:item/crateboost1"
         
     },
-    "when": "Crate Roll Booster"
+    "when": {"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Crate Roll Booster","underlined":false}],"text":""}
 }
         ],
         "fallback": {

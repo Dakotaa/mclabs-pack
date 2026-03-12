@@ -11,6 +11,13 @@
         
     },
     "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "white", "obfuscated": false, "strikethrough": false, "text": "Copaprinide"}], "text": ""}
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cooked_rice"
+        
+    },
+    "when": {"extra":[{"bold":false,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"Rice","underlined":false}],"text":""}
 }
         ],
         "fallback": {

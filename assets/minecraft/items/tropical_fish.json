@@ -10,7 +10,7 @@
         "model": "minecraft:item/tropical_trappers_talisman"
         
     },
-    "when": "Tropical Trapper's Talisman"
+    "when": {"extra":[{"bold":true,"color":"#F16E20","italic":false,"obfuscated":false,"strikethrough":false,"text":"Tropical Trapper's Talisman","underlined":false}],"text":""}
 }
         ],
         "fallback": {

@@ -10,7 +10,7 @@
         "model": "minecraft:item/votetoken"
         
     },
-    "when": "Vote Token"
+    "when": {"extra":[{"bold":true,"color":"gold","italic":false,"obfuscated":false,"strikethrough":false,"text":"Vote Token","underlined":false}],"text":""}
 }
         ],
         "fallback": {

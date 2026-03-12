@@ -10,70 +10,70 @@
         "model": "minecraft:item/oreextractor"
         
     },
-    "when": "Ore Extractor"
+    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Ore Extractor","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/soul_dark"
         
     },
-    "when": "Dark Soul"
+    "when": {"color":"light_purple","italic":false,"text":"Dark Soul"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/soul_strong"
         
     },
-    "when": "Strong Soul"
+    "when": {"color":"light_purple","italic":false,"text":"Strong Soul"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/soul_canine"
         
     },
-    "when": "Canine Soul"
+    "when": {"color":"light_purple","italic":false,"text":"Canine Soul"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/soul_divine"
         
     },
-    "when": "Divine Soul"
+    "when": {"color":"light_purple","italic":false,"text":"Divine Soul"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/soul_famished"
         
     },
-    "when": "Famished Soul"
+    "when": {"color":"light_purple","italic":false,"text":"Famished Soul"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/soul_molten"
         
     },
-    "when": "Molten Soul"
+    "when": {"extra":[{"bold":false,"color":"light_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Molten Soul","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/soul_armoured"
         
     },
-    "when": "Armoured Soul"
+    "when": {"color":"light_purple","italic":false,"text":"Armoured Soul"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/soul_psycho"
         
     },
-    "when": "Psychotic Soul"
+    "when": {"color":"light_purple","italic":false,"text":"Psychotic Soul"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/soul_runic"
         
     },
-    "when": "Runic Soul"
+    "when": {"color":"light_purple","italic":false,"text":"Runic Soul"}
 }
         ],
         "fallback": {

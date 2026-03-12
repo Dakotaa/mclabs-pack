@@ -17,28 +17,28 @@
         "model": "minecraft:item/raffleticket"
         
     },
-    "when": "Raffle Ticket"
+    "when": {"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Raffle Ticket","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/blankvalentine"
         
     },
-    "when": "Blank Valentine's Card"
+    "when": {"extra":[{"bold":true,"color":"#B51A3A","italic":false,"obfuscated":false,"strikethrough":false,"text":"Blank Valentine's Card ","underlined":false},{"bold":false,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"(Right Click)","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/signedvalentine"
         
     },
-    "when": "Valentine's Card"
+    "when": {"extra":[{"bold":true,"color":"#B51A3A","italic":false,"obfuscated":false,"strikethrough":false,"text":"Valentine's Card","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/unsignedvalentine"
         
     },
-    "when": "Unsigned Valentine's Card"
+    "when": {"extra":[{"bold":true,"color":"#B51A3A","italic":false,"obfuscated":false,"strikethrough":false,"text":"Unsigned Valentine's Card ","underlined":false},{"bold":false,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"(Right Click)","underlined":false}],"text":""}
 }
         ],
         "fallback": {

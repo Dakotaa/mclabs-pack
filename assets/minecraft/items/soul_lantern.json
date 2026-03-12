@@ -10,7 +10,7 @@
         "model": "minecraft:item/enchanted_snowglobe"
         
     },
-    "when": "Enchanted Snow"
+    "when": {"extra":[{"bold":true,"color":"dark_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Enchanted Snow Globe","underlined":false}],"text":""}
 }
         ],
         "fallback": {

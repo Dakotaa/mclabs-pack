@@ -10,91 +10,49 @@
         "model": "minecraft:item/whetstone"
         
     },
-    "when": "Whetstone"
+    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Whetstone"}], "text": ""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/brawlerhook1"
         
     },
-    "when": "Brawler Hook Piece 1/5"
+    "when": {"color":"white","italic":false,"text":"Brawler Hook Claw"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/excalibur3"
         
     },
-    "when": "Excalibur Piece 3/5"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/excalibur4"
-        
-    },
-    "when": "Excalibur Piece 4/5"
+    "when": {"color":"white","italic":false,"text":"Excalibur Crossguard"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/excalibur5"
         
     },
-    "when": "Excalibur Piece 5/5"
+    "when": {"color":"white","italic":false,"text":"Excalibur Blade Piece"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/faminescythe5"
         
     },
-    "when": "Famine Scythe Piece 5/5"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/chestplate1"
-        
-    },
-    "when": "Heavy Steel Chestplate Piece 1/5"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/chestplate2"
-        
-    },
-    "when": "Heavy Steel Chestplate Piece 2/5"
+    "when": {"color":"white","italic":false,"text":"Scythe Blade"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/chestplate3"
         
     },
-    "when": "Heavy Steel Chestplate Piece 3/5"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/chestplate4"
-        
-    },
-    "when": "Heavy Steel Chestplate Piece 4/5"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/chestplate5"
-        
-    },
-    "when": "Heavy Steel Chestplate Piece 5/5"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/stormbreaker4"
-        
-    },
-    "when": "Stormbreaker Piece 4/5"
+    "when": {"color":"white","italic":false,"text":"Heavy Steel Chunk"}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/stormbreaker5"
         
     },
-    "when": "Stormbreaker Piece 5/5"
+    "when": {"color":"white","italic":false,"text":"Stormbreaker Axe Blade"}
 }
         ],
         "fallback": {

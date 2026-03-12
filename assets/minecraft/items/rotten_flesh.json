@@ -1,6 +1,20 @@
 {
     "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/rotten_flesh"
+        "model": "minecraft:item/blinkboots4"
+        
+    },
+    "when": {"color":"white","italic":false,"text":"Flesh of The Damned"}
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/rotten_flesh"
+        }
     }
 }

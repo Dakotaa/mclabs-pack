@@ -10,14 +10,14 @@
         "model": "minecraft:item/row_reaper"
         
     },
-    "when": "Row Reaper"
+    "when": {"extra":[{"bold":true,"color":"#64B5F6","italic":false,"obfuscated":false,"strikethrough":false,"text":"R","underlined":false},{"bold":true,"color":"#5BAFF4","italic":false,"obfuscated":false,"strikethrough":false,"text":"o","underlined":false},{"bold":true,"color":"#53AAF2","italic":false,"obfuscated":false,"strikethrough":false,"text":"w ","underlined":false},{"bold":true,"color":"#4AA4F0","italic":false,"obfuscated":false,"strikethrough":false,"text":"R","underlined":false},{"bold":true,"color":"#419FEE","italic":false,"obfuscated":false,"strikethrough":false,"text":"e","underlined":false},{"bold":true,"color":"#3899EB","italic":false,"obfuscated":false,"strikethrough":false,"text":"a","underlined":false},{"bold":true,"color":"#3093E9","italic":false,"obfuscated":false,"strikethrough":false,"text":"p","underlined":false},{"bold":true,"color":"#278EE7","italic":false,"obfuscated":false,"strikethrough":false,"text":"e","underlined":false},{"bold":true,"color":"#1E88E5","italic":false,"obfuscated":false,"strikethrough":false,"text":"r","underlined":false}],"text":""}
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/faminescythe"
         
     },
-    "when": "Chance to consume attacked"
+    "when": {"bold":true,"color":"dark_gray","italic":false,"text":"Famine Scythe"}
 }
         ],
         "fallback": {
