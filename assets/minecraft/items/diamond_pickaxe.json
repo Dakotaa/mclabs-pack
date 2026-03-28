@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,56 +9,49 @@
         "model": "minecraft:item/endless_pickaxe_diamond"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "dark_purple", "obfuscated": false, "strikethrough": false, "text": "Endless Pickaxe"}], "text": ""}
+    "when": "endlesspickaxe"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/flurry_pick_diamond"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "light_purple", "obfuscated": false, "strikethrough": false, "text": "Flurry Pick"}], "text": ""}
+    "when": "flurrypick"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/paxel_diamond"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "red", "obfuscated": false, "strikethrough": false, "text": "Paxel"}], "text": ""}
+    "when": "paxel"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/lucky_pickaxe"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "dark_purple", "obfuscated": false, "strikethrough": false, "text": "Lucky Pickaxe"}], "text": ""}
+    "when": "luckypickaxe"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/vacuum_pickaxe_diamond"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "dark_purple", "obfuscated": false, "strikethrough": false, "text": "Vacuum Pickaxe"}], "text": ""}
+    "when": "vacuumpickaxe"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/drill_diamond"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "red", "obfuscated": false, "strikethrough": false, "text": "Drill"}], "text": ""}
+    "when": "drill"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/jackhammer_diamond"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "gold", "obfuscated": false, "strikethrough": false, "text": "Jackhammer"}], "text": ""}
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/molten_pickaxe_diamond"
-        
-    },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "dark_purple", "obfuscated": false, "strikethrough": false, "text": "Molten Pickaxe"}], "text": ""}
+    "when": "jackhammer"
 }
         ],
         "fallback": {

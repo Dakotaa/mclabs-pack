@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,70 +9,70 @@
         "model": "minecraft:item/blood_butcherer"
         
     },
-    "when": {"extra":[{"bold":true,"color":"#A10909","italic":false,"obfuscated":false,"strikethrough":false,"text":"B","underlined":false},{"bold":true,"color":"#A10909","italic":false,"obfuscated":false,"strikethrough":false,"text":"l","underlined":false},{"bold":true,"color":"#A20A0A","italic":false,"obfuscated":false,"strikethrough":false,"text":"o","underlined":false},{"bold":true,"color":"#A40C0C","italic":false,"obfuscated":false,"strikethrough":false,"text":"o","underlined":false},{"bold":true,"color":"#A70E0E","italic":false,"obfuscated":false,"strikethrough":false,"text":"d","underlined":false},{"bold":true,"color":"#AA1111","italic":false,"obfuscated":false,"strikethrough":false,"text":" ","underlined":false},{"bold":true,"color":"#AD1414","italic":false,"obfuscated":false,"strikethrough":false,"text":"B","underlined":false},{"bold":true,"color":"#B11717","italic":false,"obfuscated":false,"strikethrough":false,"text":"u","underlined":false},{"bold":true,"color":"#B51B1B","italic":false,"obfuscated":false,"strikethrough":false,"text":"t","underlined":false},{"bold":true,"color":"#B81E1E","italic":false,"obfuscated":false,"strikethrough":false,"text":"c","underlined":false},{"bold":true,"color":"#BB2121","italic":false,"obfuscated":false,"strikethrough":false,"text":"h","underlined":false},{"bold":true,"color":"#BE2323","italic":false,"obfuscated":false,"strikethrough":false,"text":"e","underlined":false},{"bold":true,"color":"#C02525","italic":false,"obfuscated":false,"strikethrough":false,"text":"r","underlined":false},{"bold":true,"color":"#C12626","italic":false,"obfuscated":false,"strikethrough":false,"text":"e","underlined":false},{"bold":true,"color":"#C22727","italic":false,"obfuscated":false,"strikethrough":false,"text":"r","underlined":false}],"text":""}
+    "when": "bloodbutcherer"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/soulsword"
         
     },
-    "when": {"extra":[{"bold":true,"color":"#CB0000","italic":false,"obfuscated":false,"strikethrough":false,"text":"Soul Sword","underlined":false}],"text":""}
+    "when": "soulsword"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/carnage_sword"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#5B0505", "obfuscated": false, "strikethrough": false, "text": "Carnage Cutlass"}], "text": ""}
+    "when": "carnagecutlass"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/soul_stealer"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#FFA728", "obfuscated": false, "strikethrough": false, "text": "Soul Stealer"}], "text": ""}
+    "when": "soulstealer"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/web_slinger"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "red", "obfuscated": false, "strikethrough": false, "text": "Web Slinger"}], "text": ""}
+    "when": "webslinger"
 },{
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/krampus_claw_diamond"
+        "model": "minecraft:item/krampus_claw_netherite"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "red", "obfuscated": false, "strikethrough": false, "text": "Krampus Claw"}], "text": ""}
+    "when": "krampusclaw"
 },{
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/rapier_diamond"
+        "model": "minecraft:item/rapier_netherite"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "light_purple", "obfuscated": false, "strikethrough": false, "text": "Rapier"}], "text": ""}
+    "when": "rapider"
 },{
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/mob_overkiller_diamond"
+        "model": "minecraft:item/mob_overkiller_netherite"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "yellow", "obfuscated": false, "strikethrough": false, "text": "Mob Overkiller"}], "text": ""}
+    "when": "moboverkiller"
 },{
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/materializer_diamond"
+        "model": "minecraft:item/materializer_netherite"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "red", "obfuscated": false, "strikethrough": false, "text": "Materializer"}], "text": ""}
+    "when": "materializer"
 },{
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/summoning_sword_diamond"
+        "model": "minecraft:item/summoning_sword_netherite"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "light_purple", "obfuscated": false, "strikethrough": false, "text": "Summoning Sword"}], "text": ""}
+    "when": "summoningsword"
 }
         ],
         "fallback": {

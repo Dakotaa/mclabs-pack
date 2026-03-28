@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,14 +9,14 @@
         "model": "minecraft:item/scuba_helmet"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "dark_purple", "obfuscated": false, "strikethrough": false, "text": "Scuba Helmet"}], "text": ""}
+    "when": "scubahelmet"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/demolitionist_helmet"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "dark_purple", "obfuscated": false, "strikethrough": false, "text": "Demolitionist Helmet"}], "text": ""}
+    "when": "demolitionisthelmet"
 }
         ],
         "fallback": {

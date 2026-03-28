@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,49 +9,49 @@
         "model": "minecraft:item/arrest"
         
     },
-    "when": "Arrest Cooldown I"
+    "when": "arrest_cooldown_1"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/arrest2"
         
     },
-    "when": "Arrest Cooldown II"
+    "when": "arrest_cooldown_2"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/arrest3"
         
     },
-    "when": "Arrest Cooldown III"
+    "when": "arrest_cooldown_3"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/arrest4"
         
     },
-    "when": "Arrest Cooldown IV"
+    "when": "arrest_cooldown_4"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/arrest5"
         
     },
-    "when": "Arrest Cooldown V"
+    "when": "arrest_cooldown_5"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/present_radar"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Present Radar"}], "text": ""}
+    "when": "presentradar"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/present_scanner"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#07DA00", "obfuscated": false, "strikethrough": false, "text": "Present Scanner"}], "text": ""}
+    "when": "presentscanner"
 }
         ],
         "fallback": {

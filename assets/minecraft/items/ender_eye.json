@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,42 +9,42 @@
         "model": "minecraft:item/vision1"
         
     },
-    "when": "Vision I"
+    "when": "vision_1"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/vision2"
         
     },
-    "when": "Vision II"
+    "when": "vision_2"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/vision3"
         
     },
-    "when": "Vision III"
+    "when": "vision_3"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/vision4"
         
     },
-    "when": "Vision IV"
+    "when": "vision_4"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/blinkboots1"
         
     },
-    "when": {"color":"white","italic":false,"text":"Eye of The Damned"}
+    "when": "blinkboots1"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/mcmmocredit"
         
     },
-    "when": "McMMO Credit"
+    "when": "mcmmocredit"
 }
         ],
         "fallback": {

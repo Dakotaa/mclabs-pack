@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,19 +9,25 @@
         "model": "minecraft:item/work_boots"
         
     },
-    "when": {"extra":[{"bold":true,"color":"dark_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Work Boots","underlined":false}],"text":""}
+    "when": "workboots"
 },{"model": {
         "type": "minecraft:model",
         "model": "minecraft:item/vacuum_boots"
         
     },
-    "when": {"extra":[{"bold":true,"color":"yellow","italic":false,"obfuscated":false,"strikethrough":false,"text":"Vacuum Boots","underlined":false}],"text":""}
+    "when": "vacuumboots"
+},{"model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/slippery_sandals"
+        
+    },
+    "when": "slipperysandals"
 },{"model": {
         "type": "minecraft:model",
         "model": "minecraft:item/soulsneakers"
         
     },
-    "when": {"extra":[{"bold":true,"color":"#CB0000","italic":false,"obfuscated":false,"strikethrough":false,"text":"Soul Sneakers","underlined":false}],"text":""}
+    "when": "soulsneakers"
 }
         ],
         "fallback": {

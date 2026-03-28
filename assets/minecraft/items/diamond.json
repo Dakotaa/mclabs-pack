@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,7 +9,14 @@
         "model": "minecraft:item/medium_holiday_bonus"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "dark_green", "obfuscated": false, "strikethrough": false, "text": "Medium Holiday Bonus"}], "text": ""}
+    "when": "ge_medium_bonus"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/medium_holiday_bonus"
+        
+    },
+    "when": "medium-holiday-bonus"
 }
         ],
         "fallback": {

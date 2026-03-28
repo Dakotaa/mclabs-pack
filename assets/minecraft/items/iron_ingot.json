@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,49 +9,49 @@
         "model": "minecraft:item/whetstone"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Whetstone"}], "text": ""}
+    "when": "whetstone"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/brawlerhook1"
         
     },
-    "when": {"color":"white","italic":false,"text":"Brawler Hook Claw"}
+    "when": "brawlerhook1"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/excalibur3"
         
     },
-    "when": {"color":"white","italic":false,"text":"Excalibur Crossguard"}
+    "when": "excalibur3"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/excalibur5"
         
     },
-    "when": {"color":"white","italic":false,"text":"Excalibur Blade Piece"}
+    "when": "excalibur5"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/faminescythe5"
         
     },
-    "when": {"color":"white","italic":false,"text":"Scythe Blade"}
+    "when": "faminescythe5"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/chestplate3"
         
     },
-    "when": {"color":"white","italic":false,"text":"Heavy Steel Chunk"}
+    "when": "chestplate3"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/stormbreaker5"
         
     },
-    "when": {"color":"white","italic":false,"text":"Stormbreaker Axe Blade"}
+    "when": "stormbreaker5"
 }
         ],
         "fallback": {

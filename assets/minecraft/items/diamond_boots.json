@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,7 +9,21 @@
         "model": "minecraft:item/dash_boots_diamond"
         
     },
-    "when": {"extra":[{"bold":true,"color":"yellow","italic":false,"obfuscated":false,"strikethrough":false,"text":"Dash Boots","underlined":false}],"text":""}
+    "when": "dashboots"
+},{
+    "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/running_shoes_diamond"
+        
+    },
+    "when": "runningshoes"
+},{
+    "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/lava_walkers_diamond"
+        
+    },
+    "when": "lavawalkers"
 }
         ],
         "fallback": {

@@ -10,7 +10,7 @@
             "model": "minecraft:item/trick_or_treat_basket"
             
         },
-        "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "gold", "obfuscated": false, "strikethrough": false, "text": "Trick or Treat Basket"}], "text": ""}
+        "when": "trickortreatbasket"
     }
     ],
         "fallback": {

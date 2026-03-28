@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,28 +9,28 @@
         "model": "minecraft:item/headsmans_halberd_diamond"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "dark_purple", "obfuscated": false, "strikethrough": false, "text": "Headsman's Halberd"}], "text": ""}
+    "when": "headsmanshalberd"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/herbalizer_diamond"
         
     },
-    "when": {"extra":[{"bold":true,"color":"gold","italic":false,"obfuscated":false,"strikethrough":false,"text":"Herbalizer Mk. II","underlined":false}],"text":""}
+    "when": "herbalizer"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/paxel_diamond"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "red", "obfuscated": false, "strikethrough": false, "text": "Paxel"}], "text": ""}
+    "when": "paxel"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/cocobinator_diamond"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "light_purple", "obfuscated": false, "strikethrough": false, "text": "Cocobinator"}], "text": ""}
+    "when": "cocobinator"
 }
         ],
         "fallback": {

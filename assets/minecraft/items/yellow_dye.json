@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,14 +9,21 @@
         "model": "minecraft:item/melpotinide"
         
     },
-    "when": {"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Melpotinide","underlined":false}],"text":""}
+    "when": "melpotinide"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/superrarebribefragment"
         
     },
-    "when": {"extra":[{"bold":true,"color":"#FF46C4","italic":false,"obfuscated":false,"strikethrough":false,"text":"Super Rare Bribe Fragment","underlined":false}],"text":""}
+    "when": "superrarebribe"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/superrarebribefragment"
+        
+    },
+    "when": "superrarebribefragment"
 }
         ],
         "fallback": {

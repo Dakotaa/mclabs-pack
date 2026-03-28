@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,14 +9,21 @@
         "model": "minecraft:item/chorumpkinate"
         
     },
-    "when": {"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Chorumpkinate","underlined":false}],"text":""}
+    "when": "chorumpkinate"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/uncommonbribefragment"
         
     },
-    "when": {"extra":[{"bold":true,"color":"#FF46C4","italic":false,"obfuscated":false,"strikethrough":false,"text":"Uncommon Bribe Fragment","underlined":false}],"text":""}
+    "when": "uncommonbribe"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/uncommonbribefragment"
+        
+    },
+    "when": "uncommonbribefragment"
 }
         ],
         "fallback": {

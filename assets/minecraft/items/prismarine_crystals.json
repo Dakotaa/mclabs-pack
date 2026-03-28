@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,14 +9,14 @@
         "model": "minecraft:item/glocobinide"
         
     },
-    "when": {"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Glocobinide","underlined":false}],"text":""}
+    "when": "glocobinide"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/boosterfragment"
         
     },
-    "when": {"extra":[{"bold":true,"color":"#FF46C4","italic":false,"obfuscated":false,"strikethrough":false,"text":"Booster Fragment","underlined":false}],"text":""}
+    "when": "boosterfragment"
 }
         ],
         "fallback": {

@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,14 +9,14 @@
         "model": "minecraft:item/selectionactive"
         
     },
-    "when": "Active Ability"
+    "when": "active_ability"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/selectionpassive"
         
     },
-    "when": "Passive Ability"
+    "when": "passive_ability"
 }
         ],
         "fallback": {

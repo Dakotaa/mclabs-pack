@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,28 +9,35 @@
         "model": "minecraft:item/gift_of_giving"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#F50059", "obfuscated": false, "strikethrough": false, "text": "Gift of Giving"}], "text": ""}
+    "when": "giftofgiving"
 },{
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/large_holiday_bonus"
+        "model": "minecraft:item/large_bonus"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "gold", "obfuscated": false, "strikethrough": false, "text": "Large Holiday Bonus"}], "text": ""}
+    "when": "ge_large_holiday_bonus"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/large_bonus"
+        
+    },
+    "when": "holiday-bonus-large"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/getoutcredit"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "dark_purple", "obfuscated": false, "strikethrough": false, "text": "Get out of Jail Free Credit "},{"italic": false,"color": "gray", "text": "(Right Click)"}], "text": ""}
+    "when": "getouttoken"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/tagcredit"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "gold", "obfuscated": false, "strikethrough": false, "text": "Tag Credit"}], "text": ""}
+    "when": "tagcredit"
 }
         ],
         "fallback": {

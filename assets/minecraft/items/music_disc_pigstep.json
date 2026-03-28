@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,7 +9,7 @@
         "model": "minecraft:item/value_volumizer"
         
     },
-    "when": {"extra":[{"bold":true,"color":"red","italic":false,"obfuscated":false,"strikethrough":false,"text":"Value Volumizer","underlined":false}],"text":""}
+    "when": "valuevolumizer"
 }
         ],
         "fallback": {

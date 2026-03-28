@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,35 +9,35 @@
         "model": "minecraft:item/momentum1"
         
     },
-    "when": "Momentum I"
+    "when": "momentum_1"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/momentum2"
         
     },
-    "when": "Momentum II"
+    "when": "momentum_2"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/momentum3"
         
     },
-    "when": "Momentum III"
+    "when": "momentum_3"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/momentum4"
         
     },
-    "when": "Momentum IV"
+    "when": "momentum_4"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/momentum5"
         
     },
-    "when": "Momentum V"
+    "when": "momentum_5"
 }
         ],
         "fallback": {

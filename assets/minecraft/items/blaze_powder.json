@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,21 +9,21 @@
         "model": "minecraft:item/glocarronide"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "white", "obfuscated": false, "strikethrough": false, "text": "Glocarronide"}], "text": ""}
+    "when": "glocarronide"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/slatesoftener"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Slate Softener"}], "text": ""}
+    "when": "slatesoftener"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/boss_soul_fragment"
         
     },
-    "when": {"color": "gold", "italic": true, "text": "Boss Soul Fragment"}
+    "when": "bosssoulfragment"
 }
         ],
         "fallback": {

@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,21 +9,21 @@
         "model": "minecraft:item/hood_haunter"
         
     },
-    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Hood Haunter","underlined":false}],"text":""}
+    "when": "hoodhaunter"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/psychohood4"
         
     },
-    "when": {"color":"white","italic":false,"text":"Left Psycho Eye"}
+    "when": "psychohood4"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/psychohood5"
         
     },
-    "when": {"color":"white","italic":false,"text":"Right Psycho Eye"}
+    "when": "psychohood5"
 }
         ],
         "fallback": {

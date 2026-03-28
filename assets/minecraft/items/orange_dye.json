@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,21 +9,28 @@
         "model": "minecraft:item/chowartusite"
         
     },
-    "when": {"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Chowartusite","underlined":false}],"text":""}
+    "when": "chowartusite"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/orange_sugar_cookie"
         
     },
-    "when": {"extra":[{"bold":true,"color":"#FF9B00","italic":false,"obfuscated":false,"strikethrough":false,"text":"Orange Sugar Cookie","underlined":false}],"text":""}
+    "when": "ge_orange_sugar_cookie"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/exceedinglyrarebribefragment"
         
     },
-    "when": {"extra":[{"bold":true,"color":"#FF46C4","italic":false,"obfuscated":false,"strikethrough":false,"text":"Exceedingly Rare Bribe Fragment","underlined":false}],"text":""}
+    "when": "exceedinglyrarebribe"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/exceedinglyrarebribefragment"
+        
+    },
+    "when": "exceedinglyrarebribefragment"
 }
         ],
         "fallback": {

@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,7 +9,7 @@
         "model": "minecraft:item/crateboost1"
         
     },
-    "when": {"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Crate Roll Booster","underlined":false}],"text":""}
+    "when": "crate-roll-booster-0"
 }
         ],
         "fallback": {

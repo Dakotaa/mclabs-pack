@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,21 +9,21 @@
         "model": "minecraft:item/pricebooster"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "light_purple", "obfuscated": false, "strikethrough": false, "text": "All Chem Price Booster"}], "text": ""}
+    "when": "all_chem_booster"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/randombooster"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "light_purple", "obfuscated": false, "strikethrough": false, "text": "Random Chem Price Booster"}], "text": ""}
+    "when": "random_chem_booster"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/singlebooster"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "light_purple", "obfuscated": false, "strikethrough": false, "text": "Choice Chem Price Booster"}], "text": ""}
+    "when": "choice_chem_booster"
 }
         ],
         "fallback": {

@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,14 +9,14 @@
         "model": "minecraft:item/highstakes"
         
     },
-    "when": "High Stakes"
+    "when": "high_stakes"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/gourmet_steak"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Gourmet Steak"}], "text": ""}
+    "when": "gourmetsteak"
 }
         ],
         "fallback": {

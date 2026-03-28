@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,63 +9,63 @@
         "model": "minecraft:item/cod_maki"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "gray", "obfuscated": false, "strikethrough": false, "text": "Cod Maki"}], "text": ""}
+    "when": "codmaki"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/cod_nigiri"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "gray", "obfuscated": false, "strikethrough": false, "text": "Cod Nigiri"}], "text": ""}
+    "when": "codnigiri"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/pufferfish_maki"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "gray", "obfuscated": false, "strikethrough": false, "text": "Pufferfish Maki"}], "text": ""}
+    "when": "pufferfishmaki"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/pufferfish_nigiri"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "gray", "obfuscated": false, "strikethrough": false, "text": "Pufferfish Nigiri"}], "text": ""}
+    "when": "pufferfishnigiri"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/salmon_maki"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "gray", "obfuscated": false, "strikethrough": false, "text": "Salmon Maki"}], "text": ""}
+    "when": "salmonmaki"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/salmon_nigiri"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "gray", "obfuscated": false, "strikethrough": false, "text": "Salmon Nigiri"}], "text": ""}
+    "when": "salmonnigiri"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/sushi_nori"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "gray", "obfuscated": false, "strikethrough": false, "text": "Sushi Nori"}], "text": ""}
+    "when": "sushinori"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/tropicalfish_maki"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "gray", "obfuscated": false, "strikethrough": false, "text": "Tropical Fish Maki"}], "text": ""}
+    "when": "tropicalfishmaki"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/tropicalfish_nigiri"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "gray", "obfuscated": false, "strikethrough": false, "text": "Tropical Fish Nigiri"}], "text": ""}
+    "when": "tropicalfishnigiri"
 }
         ],
         "fallback": {

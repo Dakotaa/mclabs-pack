@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,63 +9,63 @@
         "model": "minecraft:item/cratescrap"
         
     },
-    "when": {"extra":[{"bold":true,"color":"#E95C00","italic":false,"obfuscated":false,"strikethrough":false,"text":"Crate Scrap","underlined":false}],"text":""}
+    "when": "cratescrap"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/blinkboots2"
         
     },
-    "when": {"italic": false, "color": "white", "text": "Tooth of The Damned"}
+    "when": "blinkboots2"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/cerberuspaw1"
         
     },
-    "when": {"italic": false, "color": "white", "text": "Cerberus Claw #1"}
+    "when": "cerberuspaw1"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/cerberuspaw2"
         
     },
-    "when": {"italic": false, "color": "white", "text": "Cerberus Claw #2"}
+    "when": "cerberuspaw2"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/cerberuspaw3"
         
     },
-    "when": {"italic": false, "color": "white", "text": "Cerberus Claw #3"}
+    "when": "cerberuspaw3"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/cerberuspaw4"
         
     },
-    "when": {"italic": false, "color": "white", "text": "Cerberus Claw #4"}
+    "when": "cerberuspaw4"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/cerberuspaw5"
         
     },
-    "when": {"italic": false, "color": "white", "text": "Cerberus Claw #5"}
+    "when": "cerberuspaw5"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/excalibur1"
         
     },
-    "when": {"italic": false, "color": "white", "text": "Excalibur Pommel"}
+    "when": "excalibur1"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/faminescythe4"
         
     },
-    "when": {"italic": false, "color": "white", "text": "Scythe Ring Clamp"}
+    "when": "famincescythe4"
 }
         ],
         "fallback": {

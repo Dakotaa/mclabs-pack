@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,7 +9,7 @@
         "model": "minecraft:item/stimulant_stew"
         
     },
-    "when": {"extra":[{"bold":true,"color":"yellow","italic":false,"obfuscated":false,"strikethrough":false,"text":"Stimulant Stew","underlined":false}],"text":""}
+    "when": "stimulantstew"
 }
         ],
         "fallback": {

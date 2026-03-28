@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,42 +9,49 @@
         "model": "minecraft:item/smuggleflightticket"
         
     },
-    "when": {"extra":[{"bold":true,"color":"dark_green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Smuggle Flight Ticket","underlined":false}],"text":""}
+    "when": "smuggle-flight-ticket"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/smuggleflightticket"
+        
+    },
+    "when": "smuggleflightticket"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/glompkinide"
         
     },
-    "when": {"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Glompkinide","underlined":false}],"text":""}
+    "when": "glompkinide"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/taser"
         
     },
-    "when": {"extra":[{"bold":true,"color":"yellow","italic":false,"obfuscated":false,"strikethrough":false,"text":"Taser","underlined":false}],"text":""}
+    "when": "taser"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/dolphin_fin"
         
     },
-    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Dolphin Fin","underlined":false}],"text":""}
+    "when": "dolphinfin"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/sleigh_ride_ticket"
         
     },
-    "when": {"extra":[{"bold":true,"color":"dark_red","italic":false,"obfuscated":false,"strikethrough":false,"text":"Sleigh Ride Ticket","underlined":false}],"text":""}
+    "when": "ge_sleigh_ride_ticket"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/pitfragment"
         
     },
-    "when": {"extra":[{"bold":true,"color":"#FF46C4","italic":false,"obfuscated":false,"strikethrough":false,"text":"Pit Book Fragment","underlined":false}],"text":""}
+    "when": "pitfragment"
 }
         ],
         "fallback": {

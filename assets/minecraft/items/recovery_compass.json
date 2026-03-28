@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,14 +9,14 @@
         "model": "minecraft:item/bounty_brightener"
         
     },
-    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Bounty Brightener","underlined":false}],"text":""}
+    "when": "bountybrightener"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/chem_convener"
         
     },
-    "when": {"extra":[{"bold":true,"color":"#09B5D0","italic":false,"obfuscated":false,"strikethrough":false,"text":"Chem Convener","underlined":false}],"text":""}
+    "when": "chemconvener"
 }
         ],
         "fallback": {

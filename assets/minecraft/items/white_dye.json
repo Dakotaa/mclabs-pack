@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,14 +9,14 @@
         "model": "minecraft:item/betromelonide"
         
     },
-    "when": {"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Betromelonide","underlined":false}],"text":""}
+    "when": "betromelonide"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/raw_rice"
         
     },
-    "when": {"extra":[{"bold":false,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"Raw Sushi Rice","underlined":false}],"text":""}
+    "when": "rawsushirice"
 }
         ],
         "fallback": {

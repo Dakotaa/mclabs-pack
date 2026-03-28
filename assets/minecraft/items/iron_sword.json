@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,14 +9,14 @@
         "model": "minecraft:item/excalibur"
         
     },
-    "when": {"italic": false, "color": "white", "extra": [{"color": "dark_red", "extra": [{"color": "white", "text": "✙"}], "text": "Excalibur "}], "text": "✙ "}
+    "when": "excalibur"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/stealthystiletto"
         
     },
-    "when": {"extra":[{"bold":true,"color":"dark_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Stealthy Stiletto","underlined":false}],"text":""}
+    "when": "stealthystiletto"
 }
         ],
         "fallback": {

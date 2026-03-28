@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,7 +9,7 @@
         "model": "minecraft:item/stormbreaker"
         
     },
-    "when": {"color":"gray","extra":[{"bold":true,"color":"white","extra":[{"color":"gray","text":"ᛒᚱᛖᚨᚴᛖᚱ"}],"text":"Stormbreaker "}],"italic":false,"text":"ᛋᛏᛟᚱᛗ "}
+    "when": "stormbreaker"
 }
         ],
         "fallback": {

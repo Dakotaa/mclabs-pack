@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,35 +9,35 @@
         "model": "minecraft:item/pool_noodle"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "red", "obfuscated": false, "strikethrough": false, "text": "Pool Noodle"}], "text": ""}
+    "when": "poolnoodle"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/chaff_compactor"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Chaff Compactor"}], "text": ""}
+    "when": "chaffcompactor"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/glassblower"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "dark_purple", "obfuscated": false, "strikethrough": false, "text": "Glass Blower"}], "text": ""}
+    "when": "glassblower"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/christmas_cracker"
         
     },
-    "when": {"extra":[{"bold": false,"color":"white","italic": false,"obfuscated": false,"strikethrough": false, "text":"❄ ","underlined": false},{"bold": true,"color":"dark_red","italic": false,"text":"Christmas "},{"bold": true,"color":"dark_green","italic": false,"text":"Cracker "},{"bold": false,"color":"white","italic": false,"text":"❄"}],"text":""}
-},{
+    "when": "christmascracker"
+    },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/fireballstaff"
         
     },
-    "when": {"bold": true, "color": "red", "italic": false, "text": "Fireball Staff"}
+    "when": "fireballstaff"
 }
         ],
         "fallback": {

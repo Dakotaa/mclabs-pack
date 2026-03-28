@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,21 +9,21 @@
         "model": "minecraft:item/scuba_helmet"
         
     },
-    "when": {"extra":[{"bold":true,"color":"dark_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Scuba Helmet","underlined":false}],"text":""}
+    "when": "scubahelmet"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/demolitionist_helmet"
         
     },
-    "when": {"extra":[{"bold":true,"color":"dark_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Demolitionist Helmet","underlined":false}],"text":""}
+    "when": "demolitionisthelmet"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/skullsaver"
         
     },
-    "when": {"extra":[{"bold":true,"color":"light_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Skull Saver","underlined":false}],"text":""}
+    "when": "skullsaver"
 }
         ],
         "fallback": {

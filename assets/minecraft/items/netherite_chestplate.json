@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,28 +9,28 @@
         "model": "minecraft:item/shadow_scalemail"
         
     },
-    "when": {"extra":[{"bold":true,"color":"#C22727","italic":false,"obfuscated":false,"strikethrough":false,"text":"S","underlined":false},{"bold":true,"color":"#C12626","italic":false,"obfuscated":false,"strikethrough":false,"text":"h","underlined":false},{"bold":true,"color":"#C02525","italic":false,"obfuscated":false,"strikethrough":false,"text":"a","underlined":false},{"bold":true,"color":"#BE2424","italic":false,"obfuscated":false,"strikethrough":false,"text":"d","underlined":false},{"bold":true,"color":"#BC2222","italic":false,"obfuscated":false,"strikethrough":false,"text":"o","underlined":false},{"bold":true,"color":"#B91F1F","italic":false,"obfuscated":false,"strikethrough":false,"text":"w","underlined":false},{"bold":true,"color":"#B61C1C","italic":false,"obfuscated":false,"strikethrough":false,"text":" ","underlined":false},{"bold":true,"color":"#B31919","italic":false,"obfuscated":false,"strikethrough":false,"text":"S","underlined":false},{"bold":true,"color":"#AF1616","italic":false,"obfuscated":false,"strikethrough":false,"text":"c","underlined":false},{"bold":true,"color":"#AC1313","italic":false,"obfuscated":false,"strikethrough":false,"text":"a","underlined":false},{"bold":true,"color":"#A91010","italic":false,"obfuscated":false,"strikethrough":false,"text":"l","underlined":false},{"bold":true,"color":"#A60D0D","italic":false,"obfuscated":false,"strikethrough":false,"text":"e","underlined":false},{"bold":true,"color":"#A40B0B","italic":false,"obfuscated":false,"strikethrough":false,"text":"m","underlined":false},{"bold":true,"color":"#A20A0A","italic":false,"obfuscated":false,"strikethrough":false,"text":"a","underlined":false},{"bold":true,"color":"#A10909","italic":false,"obfuscated":false,"strikethrough":false,"text":"i","underlined":false},{"bold":true,"color":"#A10909","italic":false,"obfuscated":false,"strikethrough":false,"text":"l","underlined":false}],"text":""}
+    "when": "shadowscalemail"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/carnage_chestplate_2"
         
     },
-    "when": {"extra":[{"bold":true,"color":"#5B0505","italic":false,"obfuscated":false,"strikethrough":false,"text":"Carnage Chestplate","underlined":false}],"text":""}
+    "when": "carnagechestplate"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/tough_tank_top_netherite"
         
     },
-    "when": {"extra":[{"bold":true,"color":"yellow","italic":false,"obfuscated":false,"strikethrough":false,"text":"Tough Tank Top","underlined":false}],"text":""}
+    "when": "toughtanktop"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/medic_chestplate_netherite"
         
     },
-    "when": {"extra":[{"bold":true,"color":"light_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Medic Chestplate","underlined":false}],"text":""}
+    "when": "medicchestplate"
 }
         ],
         "fallback": {

@@ -1,7 +1,12 @@
 {
     "pack": {
         "pack_format": 64,
-		"supported_formats": [64],
+		"supported_formats": [
+            64,
+            84
+        ],
+        "min_format": 64,
+        "max_format": 84,
       "description": "§bMCLabs 2025 Pack §71.21.11"
     }
 }

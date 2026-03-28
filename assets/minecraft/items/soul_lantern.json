@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,7 +9,7 @@
         "model": "minecraft:item/enchanted_snowglobe"
         
     },
-    "when": {"extra":[{"bold":true,"color":"dark_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Enchanted Snow Globe","underlined":false}],"text":""}
+    "when": "enchantedsnowglobe"
 }
         ],
         "fallback": {

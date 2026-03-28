@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,84 +9,84 @@
         "model": "minecraft:item/unlockingabilities"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "blue", "obfuscated": false, "strikethrough": false, "text": "Unlocking Abilities"}], "text": ""}
+    "when": "unlocking_abilities"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/tombstone"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Cemetery Tombstone"}], "text": ""}
+    "when": "cemeterytombstone"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/commonbribe"
         
     },
-    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Common ","underlined":false},{"bold":false,"color":"gray","italic":false,"text":"Crate Item Bribe"}],"text":""}
+    "when": "crate-bribe-common"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/exceedinglyrarebribe"
         
     },
-    "when": {"extra":[{"bold":true,"color":"gold","italic":false,"obfuscated":false,"strikethrough":false,"text":"Exceedingly Rare ","underlined":false},{"bold":false,"color":"gray","italic":false,"text":"Crate Item Bribe"}],"text":""}
+    "when": "crate-bribe-exceedinglyrare"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/personalpriceboost"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "green", "obfuscated": false, "strikethrough": false, "text": "Personal Chem Price Boost"}], "text": ""}
+    "when": "personal-price-boost"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/personalprogressboost"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "light_purple", "obfuscated": false, "strikethrough": false, "text": "Personal Prestige Progress Boost"}], "text": ""}
+    "when": "personal-progress-boost"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/pitbook"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "dark_red", "obfuscated": false, "strikethrough": false, "text": "Global Pit Access"}], "text": ""}
+    "when": "pit-book"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/rarebribe"
         
     },
-    "when": {"extra":[{"bold":true,"color":"light_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Rare ","underlined":false},{"bold":false,"color":"gray","italic":false,"text":"Crate Item Bribe"}],"text":""}
+    "when": "crate-bribe-rare"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/superrarebribe"
         
     },
-    "when": {"extra":[{"bold":true,"color":"yellow","italic":false,"obfuscated":false,"strikethrough":false,"text":"Super Rare ","underlined":false},{"bold":false,"color":"gray","italic":false,"text":"Crate Item Bribe"}],"text":""}
+    "when": "crate-bribe-superrare"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/uncommonbribe"
         
     },
-    "when": {"extra":[{"bold":true,"color":"dark_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Uncommon ","underlined":false},{"bold":false,"color":"gray","italic":false,"text":"Crate Item Bribe"}],"text":""}
+    "when": "crate-bribe-uncommon"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/veryrarebribe"
         
     },
-    "when": {"extra":[{"bold":true,"color":"red","italic":false,"obfuscated":false,"strikethrough":false,"text":"Very Rare ","underlined":false},{"bold":false,"color":"gray","italic":false,"text":"Crate Item Bribe"}],"text":""}
+    "when": "crate-bribe-veryrare"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/voteboost"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "gold", "obfuscated": false, "strikethrough": false, "text": "Vote Rewards Booster"}], "text": ""}
+    "when": "vote_booster"
 }
         ],
         "fallback": {

@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,7 +9,7 @@
         "model": "minecraft:item/pumpsugrinide"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "white", "obfuscated": false, "strikethrough": false, "text": "Pumpsugrinide"}], "text": ""}
+    "when": "pumpsugrinide"
 }
         ],
         "fallback": {

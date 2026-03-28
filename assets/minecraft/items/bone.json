@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,28 +9,28 @@
         "model": "minecraft:item/canine1"
         
     },
-    "when": "Canine I"
+    "when": "canine_1"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/canine2"
         
     },
-    "when": "Canine II"
+    "when": "canine_2"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/canine3"
         
     },
-    "when": "Canine III"
+    "when": "canine_3"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/blinkboots5"
         
     },
-    "when": {"color":"white", "italic": false, "text": "Bone of The Damned"}
+    "when": "blinkboots5"
 }
         ],
         "fallback": {

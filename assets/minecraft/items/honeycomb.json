@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,28 +9,28 @@
         "model": "minecraft:item/pumpkoniumtransmutator"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#E47200", "obfuscated": false, "strikethrough": false, "text": "Pumpkonium Transmutator"}], "text": ""}
+    "when": "pumpkoniumtransmutator"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/pumpkin_popper"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#EEB000", "obfuscated": false, "strikethrough": false, "text": "Pumpkin Popper"}], "text": ""}
+    "when": "pumpkinpopper"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/fireballstaff5"
         
     },
-    "when": {"italic": false, "color": "white", "text": "Fireball Staff Crystal"}
+    "when": "fireballstaff5"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/autoreplant"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "gold", "obfuscated": false, "strikethrough": false, "text": "Enhanced Farming Access"}], "text": ""}
+    "when": "efarm"
 }
         ],
         "fallback": {

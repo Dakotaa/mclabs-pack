@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,7 +9,7 @@
         "model": "minecraft:item/tropical_trappers_talisman"
         
     },
-    "when": {"extra":[{"bold":true,"color":"#F16E20","italic":false,"obfuscated":false,"strikethrough":false,"text":"Tropical Trapper's Talisman","underlined":false}],"text":""}
+    "when": "tropicaltrapperstalisman"
 }
         ],
         "fallback": {

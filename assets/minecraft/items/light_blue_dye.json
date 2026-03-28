@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,14 +9,28 @@
         "model": "minecraft:item/blue_sugar_cookie"
         
     },
-    "when": {"extra":[{"bold":true,"color":"#4EB9FF","italic":false,"obfuscated":false,"strikethrough":false,"text":"Blue Sugar Cookie","underlined":false}],"text":""}
+    "when": "ge_blue_sugar_cookie"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/commonbribefragment"
         
     },
-    "when": {"extra":[{"bold":true,"color":"#FF46C4","italic":false,"obfuscated":false,"strikethrough":false,"text":"Common Bribe Fragment","underlined":false}],"text":""}
+    "when": "commonbribe"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/commonbribefragment"
+        
+    },
+    "when": "commonbribefragment"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/light_blue_dye"
+        
+    },
+    "when": "glorootinide"
 }
         ],
         "fallback": {

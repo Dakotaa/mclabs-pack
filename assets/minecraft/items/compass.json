@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,28 +9,28 @@
         "model": "minecraft:item/radar1"
         
     },
-    "when": "Radar I"
+    "when": "radar_1"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/radar2"
         
     },
-    "when": "Radar II"
+    "when": "radar_2"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/radar3"
         
     },
-    "when": "Radar III"
+    "when": "radar_3"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/ore_magnet"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Ore Magnet"}], "text": ""}
+    "when": "oremagnet"
 }
         ],
         "fallback": {

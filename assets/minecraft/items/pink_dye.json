@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,21 +9,28 @@
         "model": "minecraft:item/sweepaprinide"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "white", "obfuscated": false, "strikethrough": false, "text": "Sweepaprinide"}], "text": ""}
+    "when": "sweepaprinide"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/pink_sugar_cookie"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#FF73F0", "obfuscated": false, "strikethrough": false, "text": "Pink Sugar Cookie"}], "text": ""}
+    "when": "ge_pink_sugar_cookie"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/rarebribefragment"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "#FF46C4", "obfuscated": false, "strikethrough": false, "text": "Rare Bribe Fragment"}], "text": ""}
+    "when": "rarebribe"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rarebribefragment"
+        
+    },
+    "when": "rarebribefragment"
 }
         ],
         "fallback": {

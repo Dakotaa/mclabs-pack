@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,28 +9,28 @@
         "model": "minecraft:item/cod_sashimi"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "gray", "obfuscated": false, "strikethrough": false, "text": "Cod Sashimi"}], "text": ""}
+    "when": "codsashimi"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/pufferfish_sashimi"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "gray", "obfuscated": false, "strikethrough": false, "text": "Pufferfish Sashimi"}], "text": ""}
+    "when": "pufferfishsashimi"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/salmon_sashimi"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "gray", "obfuscated": false, "strikethrough": false, "text": "Salmon Sashimi"}], "text": ""}
+    "when": "salmonsashimi"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/tropicalfish_sashimi"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "gray", "obfuscated": false, "strikethrough": false, "text": "Tropical Fish Sashimi"}], "text": ""}
+    "when": "tropicalfishsashimi"
 }
         ],
         "fallback": {

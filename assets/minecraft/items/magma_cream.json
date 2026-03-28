@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,14 +9,14 @@
         "model": "minecraft:item/insta_smelt"
         
     },
-    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Insta-Smelt","underlined":false}],"text":""}
+    "when": "instasmelt"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/boss_soul"
         
     },
-    "when": {"bold":true,"color":"gold","italic":false,"text":"Boss Soul"}
+    "when": "bosssoul"
 }
         ],
         "fallback": {

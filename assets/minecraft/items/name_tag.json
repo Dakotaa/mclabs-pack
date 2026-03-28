@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,77 +9,77 @@
         "model": "minecraft:item/halloween_tag_gui"
         
     },
-    "when": "Halloween Tags"
+    "when": "halloween_tag"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/loretag"
         
     },
-    "when": "Lore Tag"
+    "when": "loretag"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/renametag"
         
     },
-    "when": "Rename Tag"
+    "when": "renametag"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/stattracktag"
         
     },
-    "when": "StatTrack Tag"
+    "when": "stattracktag"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/commontag"
         
     },
-    "when": "Common"
+    "when": "tag_common"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/eventtag"
         
     },
-    "when": "Event"
+    "when": "tag_event"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/exceedinglyraretag"
         
     },
-    "when": "Exceedingly"
+    "when": "tag_exceedinglyrare"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/pittag"
         
     },
-    "when": "Pit"
+    "when": "tag_pit"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/raretag"
         
     },
-    "when": "Rare"
+    "when": "tag_rare"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/uncommontag"
         
     },
-    "when": "Uncommon"
+    "when": "tag_uncommon"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/veryraretag"
         
     },
-    "when": "Very"
+    "when": "tag_veryrare"
 }
         ],
         "fallback": {

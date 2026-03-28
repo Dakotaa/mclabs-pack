@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
 {
     "model": {
@@ -10,14 +9,14 @@
         "model": "minecraft:item/wheasugrinide"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": false, "color": "white", "obfuscated": false, "strikethrough": false, "text": "Wheasugrinide"}], "text": ""}
+    "when": "wheasugrinide"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/psychohood1"
         
     },
-    "when": {"color": "white", "italic": false, "text": "Psycho Hood Scrap"}
+    "when": "psychohoodpart1"
 }
         ],
         "fallback": {

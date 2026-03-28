@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,14 +9,14 @@
         "model": "minecraft:item/caltrops"
         
     },
-    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Caltrops","underlined":false}],"text":""}
+    "when": "caltrops"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/crateboost3"
         
     },
-    "when": {"extra":[{"bold":true,"color":"yellow","italic":false,"obfuscated":false,"strikethrough":false,"text":"Mega Crate Roll Booster","underlined":false}],"text":""}
+    "when": "crate-roll-booster-2"
 }
         ],
         "fallback": {

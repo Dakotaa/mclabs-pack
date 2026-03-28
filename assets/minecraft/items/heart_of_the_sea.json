@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,7 +9,7 @@
         "model": "minecraft:item/energy_extender"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "yellow", "obfuscated": false, "strikethrough": false, "text": "Energy Extender"}], "text": ""}
+    "when": "energyextender"
 }
         ],
         "fallback": {

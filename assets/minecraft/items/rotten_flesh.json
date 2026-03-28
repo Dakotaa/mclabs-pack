@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,7 +9,7 @@
         "model": "minecraft:item/blinkboots4"
         
     },
-    "when": {"color":"white","italic":false,"text":"Flesh of The Damned"}
+    "when": "blinkboots4"
 }
         ],
         "fallback": {

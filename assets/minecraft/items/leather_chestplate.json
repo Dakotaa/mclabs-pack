@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,14 +9,14 @@
         "model": "minecraft:item/suicide_bomb_vest"
         
     },
-    "when": {"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"Suicide Bomb Vest","underlined":false}],"text":""}
+    "when": "suicidebombvest"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/phantom_cloak"
         
     },
-    "when": {"extra":[{"bold":true,"color":"yellow","italic":false,"obfuscated":false,"strikethrough":false,"text":"Phantom Cloak","underlined":false}],"text":""}
+    "when": "phantomcloak"
 }
         ],
         "fallback": {
