@@ -24,6 +24,13 @@
         
     },
     "when": "psychohood5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/progress_flux"
+        
+    },
+    "when": "progress_flux"
 }
         ],
         "fallback": {

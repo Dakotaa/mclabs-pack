@@ -10,6 +10,13 @@
         
     },
     "when": "souloffright"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/progress_essence"
+        
+    },
+    "when": "progress_essence"
 }
         ],
         "fallback": {

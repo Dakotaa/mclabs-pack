@@ -66,6 +66,13 @@
         
     },
     "when": "famincescythe4"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/mount_whistle"
+        
+    },
+    "when": "mountwhistle"
 }
         ],
         "fallback": {

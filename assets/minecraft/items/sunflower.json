@@ -10,6 +10,69 @@
         
     },
     "when": "votetoken"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cash_roll_standard_spender"
+        
+    },
+    "when": "key_cashroll_standard"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cash_roll_gold_rush"
+        
+    },
+    "when": "key_cashroll_goldrush"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cash_roll_gold_rush_bonus"
+        
+    },
+    "when": "key_cashroll_goldrushbonus"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cash_roll_platinum"
+        
+    },
+    "when": "key_cashroll_platinum"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cash_roll_platinum_bonus"
+        
+    },
+    "when": "key_cashroll_platinumbonus"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cash_roll_high_roller"
+        
+    },
+    "when": "key_cashroll_highroller"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cash_roll_mega_millions_1"
+        
+    },
+    "when": "key_cashroll_megamillionstier1"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cash_roll_mega_millions_2"
+        
+    },
+    "when": "key_cashroll_megamillionstier2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cash_roll_mega_millions_jackpot"
+        
+    },
+    "when": "key_cashroll_megamillionstier3"
 }
         ],
         "fallback": {

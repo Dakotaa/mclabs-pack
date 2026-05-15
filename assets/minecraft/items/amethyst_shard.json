@@ -31,6 +31,13 @@
         
     },
     "when": "chemistcatalyst"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/lab_wars_corporate_award"
+        
+    },
+    "when": "labwarsaward"
 }
         ],
         "fallback": {

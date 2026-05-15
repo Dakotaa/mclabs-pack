@@ -24,6 +24,13 @@
         
     },
     "when": "skullsaver"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/masters_helmet"
+        
+    },
+    "when": "masters_helmet"
 }
         ],
         "fallback": {

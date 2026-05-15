@@ -17,6 +17,13 @@
         
     },
     "when": "crate-roll-booster-2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/road_spikes"
+        
+    },
+    "when": "roadspikes"
 }
         ],
         "fallback": {

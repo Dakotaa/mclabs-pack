@@ -16,7 +16,7 @@
         "model": "minecraft:item/carnage_sword"
         
     },
-    "when": "carnagecutlass"
+    "when": "carnage_cutlass"
 },{
     "model": {
         "type": "minecraft:model",

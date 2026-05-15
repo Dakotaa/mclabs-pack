@@ -10,6 +10,13 @@
         
     },
     "when": "sandcastleshovel"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/sifty_shovel"
+        
+    },
+    "when": "siftyshovel"
 }
         ],
         "fallback": {

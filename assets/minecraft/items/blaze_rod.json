@@ -31,13 +31,20 @@
         
     },
     "when": "christmascracker"
-    },{
+},{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/fireballstaff"
         
     },
     "when": "fireballstaff"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/chaff_pellet"
+        
+    },
+    "when": "chaffpellet"
 }
         ],
         "fallback": {

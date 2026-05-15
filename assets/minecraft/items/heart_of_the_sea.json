@@ -10,6 +10,55 @@
         
     },
     "when": "energyextender"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/lab_wars_booster_chem"
+        
+    },
+    "when": "lab_wars_chems_booster"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/lab_wars_booster_police"
+        
+    },
+    "when": "lab_wars_police_booster"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/lab_wars_booster_voting"
+        
+    },
+    "when": "lab_wars_voting_booster"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/lab_wars_booster_fishing"
+        
+    },
+    "when": "lab_wars_fishing_booster"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/lab_wars_booster_pit"
+        
+    },
+    "when": "lab_wars_pit_booster"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/score_essence"
+        
+    },
+    "when": "score_essence"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/suppliers_seal"
+        
+    },
+    "when": "suppliersseal"
 }
         ],
         "fallback": {

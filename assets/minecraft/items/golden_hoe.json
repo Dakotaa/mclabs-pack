@@ -1,8 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_name",
+        "property": "minecraft:custom_model_data",
         "cases": [
             {
     "model": {
@@ -10,14 +9,7 @@
         "model": "minecraft:item/disposable_plow"
         
     },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "aqua", "obfuscated": false, "strikethrough": false, "text": "Disposable Plow"}], "text": ""}
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/autoreplant"
-        
-    },
-    "when": {"extra": [{"italic": false, "underlined": false, "bold": true, "color": "gold", "obfuscated": false, "strikethrough": false, "text": "Enhanced Farming Access"}], "text": ""}
+    "when": "disposableplow"
 }
         ],
         "fallback": {

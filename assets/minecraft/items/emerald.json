@@ -13,17 +13,17 @@
 },{
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/large_bonus"
+        "model": "minecraft:item/large_holiday_bonus"
         
     },
-    "when": "ge_large_holiday_bonus"
+    "when": "ge_large_bonus"
 },{
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/large_bonus"
+        "model": "minecraft:item/large_holiday_bonus"
         
     },
-    "when": "holiday-bonus-large"
+    "when": "large-holiday-bonus"
 },{
     "model": {
         "type": "minecraft:model",
@@ -38,6 +38,13 @@
         
     },
     "when": "tagcredit"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/advertcredit"
+        
+    },
+    "when": "advertcredit"
 }
         ],
         "fallback": {

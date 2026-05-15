@@ -13,70 +13,83 @@
 },{
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/soul_dark"
+        "model": "minecraft:item/value_essence"
         
     },
-    "when": "darksoul"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/soul_strong"
-        
-    },
-    "when": "strongsoul"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/soul_canine"
-        
-    },
-    "when": "caninesoul"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/soul_divine"
-        
-    },
-    "when": "divinesoul"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/soul_famished"
-        
-    },
-    "when": "famishedsoul"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/soul_molten"
-        
-    },
-    "when": "moltensoul"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/soul_armoured"
-        
-    },
-    "when": "armouredsoul"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/soul_psycho"
-        
-    },
-    "when": "psychoticsoul"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/soul_runic"
-        
-    },
-    "when": "runicsoul"
-}
-        ],
+    "when": "value_essence"
+}],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": 
+    [{
+        "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/soul_dark"
+            
+        },
+        "when": {"color":"light_purple","italic":false,"text":"Dark Soul"}
+    },{
+        "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/soul_strong"
+            
+        },
+        "when": {"color":"light_purple","italic":false,"text":"Strong Soul"}
+    },{
+        "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/soul_canine"
+            
+        },
+        "when": {"color":"light_purple","italic":false,"text":"Canine Soul"}
+    },{
+        "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/soul_divine"
+            
+        },
+        "when": {"color":"light_purple","italic":false,"text":"Divine Soul"}
+    },{
+        "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/soul_famished"
+            
+        },
+        "when": {"color":"light_purple","italic":false,"text":"Famished Soul"}
+    },{
+        "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/soul_molten"
+            
+        },
+        "when": {"extra":[{"bold":false,"color":"light_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Molten Soul","underlined":false}],"text":""}
+    },{
+        "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/soul_armoured"
+            
+        },
+        "when": {"color":"light_purple","italic":false,"text":"Armoured Soul"}
+    },{
+        "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/soul_psycho"
+            
+        },
+        "when": {"color":"light_purple","italic":false,"text":"Psychotic Soul"}
+    },{
+        "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/soul_runic"
+            
+        },
+        "when": {"color":"light_purple","italic":false,"text":"Runic Soul"}
+    }],
         "fallback": {
             "type":"minecraft:model","model":"minecraft:item/slime_ball"
         }
     }
+}
 }

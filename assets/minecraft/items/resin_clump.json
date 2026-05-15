@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/siege_fuel"
+        
+    },
+    "when": "siegefuel"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/resin_clump"
+        }
+    }
+}

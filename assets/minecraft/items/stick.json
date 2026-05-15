@@ -38,6 +38,13 @@
         
     },
     "when":"suppliersidekick"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/nexus_tool"
+        
+    },
+    "when":"nexustool"
 }
         ],
         "fallback": {

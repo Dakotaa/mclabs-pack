@@ -17,6 +17,13 @@
         
     },
     "when": "beachumbrella"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/value_flux"
+        
+    },
+    "when": "value_flux"
 }
         ],
         "fallback": {

@@ -9,7 +9,7 @@
         "model": "minecraft:item/commonkey"
         
     },
-    "when": "key_tag_common"
+    "when": "key_commontag"
 },{
     "model": {
         "type": "minecraft:model",
@@ -58,7 +58,7 @@
         "model": "minecraft:item/rarekey"
         
     },
-    "when": "key_tag_rare"
+    "when": "key_raretag"
 },{
     "model": {
         "type": "minecraft:model",
@@ -79,56 +79,49 @@
         "model": "minecraft:item/supply1"
         
     },
-    "when": "key_supply1"
+    "when": "key_supplycrate1"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/supply2"
         
     },
-    "when": "key_supply2"
+    "when": "key_supplycrate2"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/supply3"
         
     },
-    "when": "key_supply3"
+    "when": "key_supplycrate3"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/supply4"
         
     },
-    "when": "key_supply4"
+    "when": "key_supplycrate4"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/supply5"
         
     },
-    "when": "key_supply5"
+    "when": "key_supplycrate5"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/supply6"
         
     },
-    "when": "key_supply6"
+    "when": "key_supplycrate6"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/tag"
         
     },
-    "when": "key_tag"
-},{
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/tagrarity"
-        
-    },
-    "when": " Tag Crate Key"
+    "when": "key_tagkey"
 },{
     "model": {
         "type": "minecraft:model",
@@ -142,14 +135,14 @@
         "model": "minecraft:item/uncommonkey"
         
     },
-    "when": "key_tag_uncommon"
+    "when": "key_uncommontag"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/veryrarekey"
         
     },
-    "when": "key_tag_veryrare"
+    "when": "key_veryraretag"
 },{
     "model": {
         "type": "minecraft:model",

@@ -1,0 +1,21 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/legacy_of_hiruko"
+    },
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [0, 90, 0],
+            "translation": [0, 0, 3.2]
+        },
+        "firstperson_lefthand": {
+            "rotation": [0, 90, 0]
+        },
+        "thirdperson_righthand": {
+            "rotation": [0, 90, 0]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [0, 90, 0]
+        }
+    }
+}

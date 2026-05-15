@@ -45,6 +45,28 @@
         
     },
     "when": "fishfryer"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/lasso"
+        
+    },
+    "when": "lasso"
+},{
+    "model": {
+        "type": "minecraft:condition",
+        "property": "minecraft:fishing_rod/cast",
+        "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/legacy_of_hiruko"
+        },
+        "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/legacy_of_hiruko"
+        }
+        
+    },
+    "when": "legacyofhiruko"
 }
         ],
         "fallback": {

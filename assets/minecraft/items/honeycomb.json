@@ -31,6 +31,13 @@
         
     },
     "when": "efarm"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/energy"
+        
+    },
+    "when": "energy"
 }
         ],
         "fallback": {

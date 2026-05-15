@@ -23,7 +23,7 @@
         "model": "minecraft:item/carnage_sword"
         
     },
-    "when": "carnagecutlass"
+    "when": "carnage_cutlass"
 },{
     "model": {
         "type": "minecraft:model",
@@ -73,6 +73,13 @@
         
     },
     "when": "summoningsword"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/masters_sword"
+        
+    },
+    "when": "masters_sword"
 }
         ],
         "fallback": {

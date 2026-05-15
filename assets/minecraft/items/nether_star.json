@@ -10,6 +10,13 @@
         
     },
     "when": "compoundconstructor"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/lab_wars_medal"
+        
+    },
+    "when": "labwarsmedal"
 }
         ],
         "fallback": {

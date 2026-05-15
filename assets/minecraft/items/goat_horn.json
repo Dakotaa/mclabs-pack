@@ -10,6 +10,12 @@
         
     },
     "when": "companycall"
+}, {"model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/police_horn"
+        
+    },
+    "when": "policehorn"
 }
         ],
         "fallback": {

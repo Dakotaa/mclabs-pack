@@ -10,6 +10,13 @@
         
     },
     "when": "smugglersatchel"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/police_belt"
+        
+    },
+    "when": "policebelt"
 }
         ],
         "fallback": {

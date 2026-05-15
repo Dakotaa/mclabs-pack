@@ -48,6 +48,20 @@
 },{
     "model": {
         "type": "minecraft:model",
+        "model": "minecraft:item/xl_haste_potion"
+        
+    },
+    "when": "xlhastepotion"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/xl_haste_potion"
+        
+    },
+    "when": "xlhastepotion_sf"
+},{
+    "model": {
+        "type": "minecraft:model",
         "model": "minecraft:item/exp_juice"
         
     },

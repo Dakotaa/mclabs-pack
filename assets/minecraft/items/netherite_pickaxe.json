@@ -59,6 +59,13 @@
         
     },
     "when": "moltenpickaxe"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/masters_pickaxe"
+        
+    },
+    "when": "masters_pickaxe"
 }
         ],
         "fallback": {

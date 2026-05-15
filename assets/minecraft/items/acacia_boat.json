@@ -1,0 +1,30 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+
+    "cases": [
+        {
+            "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/portable_raft"
+                
+            },
+            "when": "policeboat"
+        },
+        {
+            "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/portable_raft"
+                
+            },
+            "when": "portableraft"
+        }
+    ],
+
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/acacia_boat"
+    }
+  }
+}

@@ -9,91 +9,91 @@
         "model": "minecraft:item/arrest"
         
     },
-    "when": "arrest_cooldown_1"
+    "when": "arrest-cooldown-i"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/arrest2"
         
     },
-    "when": "arrest_cooldown_2"
+    "when": "arrest-cooldown-ii"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/arrest3"
         
     },
-    "when": "arrest_cooldown_3"
+    "when": "arrest-cooldown-iii"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/arrest4"
         
     },
-    "when": "arrest_cooldown_4"
+    "when": "arrest-cooldown-iv"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/arrest5"
         
     },
-    "when": "arrest_cooldown_5"
+    "when": "arrest-cooldown-v"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/canine1"
         
     },
-    "when": "canine_1"
+    "when": "canine-i"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/canine2"
         
     },
-    "when": "canine_2"
+    "when": "canine-ii"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/canine3"
         
     },
-    "when": "canine_3"
+    "when": "canine-iii"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/highstakes"
         
     },
-    "when": "high_stakes"
+    "when": "high-stakes"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/jump2"
         
     },
-    "when": "power_leap_1"
+    "when": "power-leap-i"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/jump3"
         
     },
-    "when": "power_leap_2"
+    "when": "power-leap-ii"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/jump4"
         
     },
-    "when": "power_leap_3"
+    "when": "power-leap-iii"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/jumpboost"
         
     },
-    "when": "jump_boost"
+    "when": "jump-boost"
 },{
     "model": {
         "type": "minecraft:model",
@@ -107,119 +107,119 @@
         "model": "minecraft:item/momentum1"
         
     },
-    "when": "momentum_1"
+    "when": "momentum-i"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/momentum2"
         
     },
-    "when": "momentum_2"
+    "when": "momentum-ii"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/momentum3"
         
     },
-    "when": "momentum_3"
+    "when": "momentum-iii"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/momentum4"
         
     },
-    "when": "momentun_4"
+    "when": "momentun-iv"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/momentum5"
         
     },
-    "when": "momentum_5"
+    "when": "momentum-v"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/radar1"
         
     },
-    "when": "radar_1"
+    "when": "radar-i"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/radar2"
         
     },
-    "when": "radar_2"
+    "when": "radar-ii"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/radar3"
         
     },
-    "when": "radar_3"
+    "when": "radar-iii"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/speed1"
         
     },
-    "when": "speed_surge_1"
+    "when": "speed-surge-i"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/speed2"
         
     },
-    "when": "speed_surge_2"
+    "when": "speed-surge-ii"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/speed3"
         
     },
-    "when": "speed_surge_3"
+    "when": "speed-surge-iii"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/speed4"
         
     },
-    "when": "speed_surge_4"
+    "when": "speed-surge-iv"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/speed5"
         
     },
-    "when": "speed_surge_5"
+    "when": "speed-surge-v"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/vision1"
         
     },
-    "when": "vision_1"
+    "when": "vision-i"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/vision2"
         
     },
-    "when": "vision_2"
+    "when": "vision-ii"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/vision3"
         
     },
-    "when": "vision_3"
+    "when": "vision-iii"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/vision4"
         
     },
-    "when": "vision_4"
+    "when": "vision-iv"
 }
         ],
         "fallback": {

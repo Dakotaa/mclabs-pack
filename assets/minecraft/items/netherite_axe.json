@@ -38,6 +38,13 @@
         
     },
     "when": "cocobinator"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/masters_axe"
+        
+    },
+    "when": "masters_axe"
 }
         ],
         "fallback": {

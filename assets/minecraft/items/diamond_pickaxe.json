@@ -41,6 +41,13 @@
 },{
     "model": {
         "type": "minecraft:model",
+        "model": "minecraft:item/molten_pickaxe_diamond"
+        
+    },
+    "when": "moltenpickaxe"
+},{
+    "model": {
+        "type": "minecraft:model",
         "model": "minecraft:item/drill_diamond"
         
     },

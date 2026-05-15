@@ -16,14 +16,14 @@
         "model": "minecraft:item/pocketrocket"
         
     },
-    "when": "pocketrocket"
+    "when": "pocket_rocket"
 },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/strongpocketrocket"
         
     },
-    "when": "strongpocketrocket"
+    "when": "pocket_rocket_strong"
 },{
     "model": {
         "type": "minecraft:model",
@@ -31,6 +31,13 @@
         
     },
     "when": "weakpocketrocket"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/weakpocketrocket"
+        
+    },
+    "when": "pocket_rocket_weak"
 },{
     "model": {
         "type": "minecraft:model",

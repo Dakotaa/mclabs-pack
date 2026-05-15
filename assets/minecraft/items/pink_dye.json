@@ -4,13 +4,154 @@
         "property": "minecraft:custom_model_data",
         "cases": [
             {
-    "model": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/sweepaprinide"
+        "when": "sweepaprinide",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/sweepaprinide"
+            },
+
+            {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": "{purity:{value:0}}",
+            "on_true": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/blank"
+            },
+            "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": "{purity:{value:1}}",
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/purity/1-0-0"
+                },
+                "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": "{purity:{value:2}}",
+                        "on_true": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/purity/2-0-0"
+                        },
+                        "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": "{purity:{value:3}}",
+                                "on_true": {
+                                    "type": "minecraft:model",
+                                    "model": "minecraft:item/purity/3-0-0"
+                                },
+                                "on_false": {
+                                    "type": "minecraft:model",
+                                    "model": "minecraft:item/blank"
+                                }
+                        }
+                }
+            }
+            },
+
+            {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": "{purity:{progress:0}}",
+            "on_true": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/blank"
+            },
+            "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": "{purity:{progress:1}}",
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/purity/0-1-0"
+                },
+                "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": "{purity:{progress:2}}",
+                        "on_true": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/purity/0-2-0"
+                        },
+                        "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": "{purity:{progress:3}}",
+                                "on_true": {
+                                    "type": "minecraft:model",
+                                    "model": "minecraft:item/purity/0-3-0"
+                                },
+                                "on_false": {
+                                    "type": "minecraft:model",
+                                    "model": "minecraft:item/blank"
+                                }
+                        }
+                }
+            }
+            },
+
+            {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": "{purity:{score:0}}",
+            "on_true": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/blank"
+            },
+            "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": "{purity:{score:1}}",
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/purity/0-0-1"
+                },
+                "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": "{purity:{score:2}}",
+                        "on_true": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/purity/0-0-2"
+                        },
+                        "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": "{purity:{score:3}}",
+                                "on_true": {
+                                    "type": "minecraft:model",
+                                    "model": "minecraft:item/purity/0-0-3"
+                                },
+                                "on_false": {
+                                    "type": "minecraft:model",
+                                    "model": "minecraft:item/blank"
+                                }
+                        }
+                }
+            }
+            }
         
-    },
-    "when": "sweepaprinide"
-},{
+          ]
+        }
+      },{
     "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/pink_sugar_cookie"

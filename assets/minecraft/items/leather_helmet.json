@@ -10,6 +10,13 @@
         
     },
     "when": "pilothat"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/runner_cap"
+        
+    },
+    "when": "runnercap"
 }
         ],
         "fallback": {

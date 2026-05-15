@@ -31,6 +31,13 @@
         
     },
     "when": "farmersfriend"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/masters_hoe"
+        
+    },
+    "when": "masters_hoe"
 }
         ],
         "fallback": {
